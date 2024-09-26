@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: beige;">
+    <h1>Сравнение форматов <strong>Webp, PNG, JPEG</strong> и <strong>GIF</strong></h1>
+    <p>Изначально бали взяты две разных по количеству цветов и детализации картинки в формате <strong>PNG</strong>. <br>
+        Для сравнения размеров файлов в иных форматах, картинки были сконвертированы в максимальном качестве (без потерь) программой Photoshop 
+        в <strong>JPEG</strong>, Webp</strong> и <strong>GIF</strong>. <br>
+        <img src="images/feather-png.png" alt="" width="350"><img src="images/feather-jpeg.jpg" alt="" width="350"><img src="images/feather-webp-ph.webp" alt="" width="350"><img src="images/feather-gif.gif" alt="" width="350"> <br>
+        В результате имеем (слева направо) png=790 KB, jpeg=723 KB, webp=376 KB, gif=147 KB. <br>
+        Победителем по размеру файла выступает формат <strong>GIF</strong>. Лишь при очень сильном увеличении в gif-картинке можно разглядеть ступенчатость тонких волосков пера. 
+        При этом сохранились плавные переходы цвета и прозрачность фона. <br><br>
+        Для следующего сравнения возьмем картинку с большей детализацией и колличеством цветов: <br>
+        <img src="images/rabbit-png.png" alt="" width="350"><img src="images/rabbit-jpeg.jpg" alt="" width="350"><img src="images/rabbit-webp-ph.webp" alt="" width="350"><img src="images/rabbit-gif.gif" alt="" width="350"> <br>
+        В результате имеем (слева направо) png=1073 KB, jpeg=469 KB, webp=669 KB, gif=186 KB. <br>
+        Как видим с высокой детализацией <strong>webp</strong> сжимает хуже чем <strong>jpeg</strong>, но зато, в отличии от <strong>jpeg</strong>, он поддерживает прозрачность, 
+        что дает этому формату преимущество перед <strong>png</strong>, так как при том же качестве <strong>webp</strong> почти на 50% уменьшил размер файла сохранив его функциональность. <br>
+        При этом сравнении <strong>gif</strong> ожидаемо показал лучший результат размера файла и лишь при 4-х кратном увеличении на картинке можно заметить артефакты в окраске шкурки. <br><br>
+        Сравним еще одну картинку: <br>
+        <img src="images/floral-decor-png.png" alt="" width="350"><img src="images/floral-decor-jpeg.jpg" alt="" width="350"><img src="images/floral-decor-webp-ph.webp" alt="" width="350"><img src="images/floral-decor-gif.gif" alt="" width="350"> <br>
+        В результате имеем (слева направо) png=413 KB, jpeg=342 KB, webp=304 KB, gif=122 KB. <br>
+        В данном сравнении <strong>webp</strong> обошел <strong>jpeg</strong> по размеру файла, но проигрывает <strong>gif</strong>. <strong>GIF</strong> в данной картинке уже при 2-х кратном увеличении
+        проявляет огрехи в равномерности окраски отдельных элементов картинки. <br>
+
+    </p>
+</body>
+</html>
