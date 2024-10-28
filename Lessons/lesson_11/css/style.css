@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+li {
+    float: left;
+    margin: 0px 15px;
+    align-content: center;
+}
+
+.menu {
+    margin: 0px auto;
+    padding-top: 33px;
+    font-size: 25px;
+}
