@@ -1,7 +1,91 @@
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .roboto-thin-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.div-left {
+    float: left;
+    padding: 17px 0px 17px;
+    width: 17%;
+}
+
+.div-right {
+    float: right;
+    padding: 17px 0px 17px;
+    width: 35%;
 }
 
 .container {
@@ -16,7 +100,31 @@ li {
 }
 
 .menu {
-    margin: 0px auto;
+    text-decoration: none;
+    margin: 0px 427px 0px 268px;
     padding-top: 33px;
-    font-size: 25px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    color: black;
+}
+
+li.hot {
+    font-weight: bold;
+    color: red;
+}
+button {
+        border-style: solid;
+        border-width: thin;
+        border-radius: 20px;
+        height: 39px;
+        font-family: Roboto, sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: bold;
+}
+img {
+    height: 39px;
+    margin: auto 10px auto 10px;
+
 }
