@@ -125,11 +125,16 @@ button {
   font-style: normal;
   font-weight: bold;
   vertical-align: top;
+  margin-right: 9px;
 }
 
 .container img {
-  height: 39px;
-  margin: auto 10px auto 10px;
+  height: 26px;
+  margin: 6px 5px auto 10px;
+  vertical-align: middle;
+}
+.container img[alt="burger"]{
+  height: 15px;
 }
 
 body > div > div.screen_1 > div {
@@ -147,11 +152,6 @@ body > div > div.screen_1 > div {
 .screen_1 {
   position: relative;
   display: inline-block;
-  /*background-image: url('../img/wallpapers.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 100%;*/
 }
 
 h1 {
