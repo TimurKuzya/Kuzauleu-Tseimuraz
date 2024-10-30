@@ -1,130 +1,163 @@
 .roboto-thin {
-    font-family: "Roboto", sans-serif;
-    font-weight: 100;
-    font-style: normal;
-  }
-  
-  .roboto-light {
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-  }
-  
-  .roboto-regular {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .roboto-medium {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-  }
-  
-  .roboto-bold {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-  }
-  
-  .roboto-black {
-    font-family: "Roboto", sans-serif;
-    font-weight: 900;
-    font-style: normal;
-  }
-  
-  .roboto-thin-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 100;
-    font-style: italic;
-  }
-  
-  .roboto-light-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    font-style: italic;
-  }
-  
-  .roboto-regular-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: italic;
-  }
-  
-  .roboto-medium-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-style: italic;
-  }
-  
-  .roboto-bold-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-style: italic;
-  }
-  
-  .roboto-black-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 900;
-    font-style: italic;
-  }
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-black {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.roboto-thin-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.roboto-light-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.roboto-regular-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.roboto-medium-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.roboto-bold-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.roboto-black-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .div-left {
-    float: left;
-    padding: 17px 0px 17px;
-    width: 17%;
+  float: left;
+  padding: 17px 0px 17px;
+  width: 17%;
 }
 
 .div-right {
-    float: right;
-    padding: 17px 0px 17px;
-    width: 35%;
+  float: right;
+  padding: 17px 0px 17px;
+  width: 38%;
 }
 
 .container {
-    margin: 0 auto;
-    width: 1200px;
+  margin: 0 auto;
+  width: 1200px;
 }
 
 li {
-    float: left;
-    margin: 0px 15px;
-    align-content: center;
+  float: left;
+  margin: 0px 15px;
+  align-content: center;
 }
 
 .menu {
-    text-decoration: none;
-    margin: 0px 427px 0px 268px;
-    padding-top: 33px;
-    font-family: Roboto, sans-serif;
-    font-style: normal;
-    font-size: 14px;
-    color: black;
+  text-decoration: none;
+  margin: 0px 427px 0px 268px;
+  padding-top: 33px;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  color: black;
 }
 
 li.hot {
-    font-weight: bold;
-    color: red;
+  font-weight: bold;
+  color: red;
 }
-button {
-        border-style: solid;
-        border-width: thin;
-        border-radius: 20px;
-        height: 39px;
-        font-family: Roboto, sans-serif;
-        font-size: 14px;
-        font-style: normal;
-        font-weight: bold;
-}
-img {
-    height: 39px;
-    margin: auto 10px auto 10px;
 
+button {
+  border-style: solid;
+  border-width: thin;
+  border-radius: 20px;
+  padding: 3px 15px 0px 15px;
+  height: 39px;
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: bold;
+  vertical-align: top;
+}
+
+.container img {
+  height: 39px;
+  margin: auto 10px auto 10px;
+}
+
+body > div > div.screen_1 > div {
+  position: absolute;
+  top: 20%;
+  left: 1%;
+  right: 1%;
+
+}
+.spacer {
+  height: 1px;
+  clear: both;
+}
+
+.screen_1 {
+  position: relative;
+  display: inline-block;
+  /*background-image: url('../img/wallpapers.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;*/
+}
+
+h1 {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 128px;
+  font-family: 'Roboto', sans-serif;
+  color: white;
 }
