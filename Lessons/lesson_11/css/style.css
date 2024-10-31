@@ -83,6 +83,7 @@
 }
 
 .div-right {
+  text-align: right;
   float: right;
   padding: 17px 0px 17px;
   width: 38%;
@@ -91,6 +92,31 @@
 .container {
   margin: 0 auto;
   width: 1200px;
+}
+
+.container2 {
+  text-align: center;
+  margin: -68px auto 0 auto;
+  width: 1200px;
+}
+
+.container3 {
+  text-align: center;
+  margin: 52px auto 0 auto;
+  width: 1560px;
+}
+
+.hotels>.container2 {
+  margin: 0 auto 0 auto;
+}
+
+.tours {
+  height: 813px;
+}
+
+.hotels {
+  background-color: #F8F8F8;
+  height: 898px;
 }
 
 li {
@@ -169,7 +195,7 @@ body>div:nth-child(2) {
 }
 
 .p1 {
-  padding-top: 152px;
+  padding-top: 134px;
   font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -197,12 +223,44 @@ body>div:nth-child(2) {
   margin-top: 69px;
 }
 
-.tour {
+.block2 {
+  padding-left: 0px;
+  padding-top: 180px;
+  text-align: center;
+}
+
+.container2 img {
+  float: left;
+  padding: 17px 0px 17px;
+  height: 340px;
+  width: 256px;
   margin-right: 32px;
 }
 
-.tour img {
-  
-  height: 100%;
+.container3 img {
+  float: left;
+  padding: 0px 0px 0px;  
+}
+
+.container3 [src$="1.png"], .container3 [src$="3.png"] {
+  height: 340px;
+  width: 460px;
+  padding-top: 30px;
+}
+
+.container3 [src$="2.png"] {
+  height: 400px;
+  width: 544px;
   margin-right: 32px;
+  margin-left: 32px;
+}
+
+.hotels>.container>.p1 {
+  padding-top: 0px;
+  text-align: center;
+  margin-top: -32px;
+}
+
+.hotels>.container>.p2 {
+  text-align: center;
 }
