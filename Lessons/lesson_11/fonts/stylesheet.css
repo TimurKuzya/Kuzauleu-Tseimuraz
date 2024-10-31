@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Millanova';
+    src: url('Millanova.eot');
+    src: url('Millanova.eot?#iefix') format('embedded-opentype'),
+        url('Millanova.woff') format('woff'),
+        url('Millanova.ttf') format('truetype'),
+        url('Millanova.svg#Millanova') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

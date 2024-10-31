@@ -133,17 +133,19 @@ button {
   margin: 6px 5px auto 10px;
   vertical-align: middle;
 }
-.container img[alt="burger"]{
+
+.container img[alt="burger"] {
   height: 15px;
 }
 
-body > div > div.screen_1 > div {
+body>div>div.screen_1>div {
   position: absolute;
   top: 20%;
   left: 1%;
   right: 1%;
 
 }
+
 .spacer {
   height: 1px;
   clear: both;
@@ -160,4 +162,47 @@ h1 {
   font-size: 128px;
   font-family: 'Roboto', sans-serif;
   color: white;
+}
+
+body>div:nth-child(2) {
+  height: 813px;
+}
+
+.p1 {
+  padding-top: 152px;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44px;
+  color: black;
+}
+
+.p2 {
+  font-family: Roboto, sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  font-style: normal;
+  padding-top: 15px;
+}
+
+.millanova {
+  font-family: Millanova;
+  font-size: 52px;
+  font-style: normal;
+  color: #D4D4D4;
+}
+
+.block1 {
+  margin-left: -147px;
+  margin-top: 69px;
+}
+
+.tour {
+  margin-right: 32px;
+}
+
+.tour img {
+  
+  height: 100%;
+  margin-right: 32px;
 }
