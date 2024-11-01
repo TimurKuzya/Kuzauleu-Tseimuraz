@@ -98,6 +98,7 @@
   text-align: center;
   margin: -68px auto 0 auto;
   width: 1200px;
+  height: 340px;
 }
 
 .container3 {
@@ -190,8 +191,34 @@ h1 {
   color: white;
 }
 
-body>div:nth-child(2) {
-  height: 813px;
+.float_left {
+  float: left;
+}
+
+.float_right {
+  float: right;
+}
+
+.p-con2 {
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  color: white;
+  height: 21px;
+  padding: 4px 10px 3px 10px;
+  border-style: dashed;
+  border: 1px solid white;
+  border-radius: 30px;
+  position: absolute;
+}
+
+.day {
+  margin-top: 41px;
+  margin-left: 22px;
+}
+
+.cost {
+  margin-top: 41px;
+  margin-left: 93px;
 }
 
 .p1 {
@@ -231,10 +258,10 @@ body>div:nth-child(2) {
 
 .container2 img {
   float: left;
-  padding: 17px 0px 17px;
   height: 340px;
   width: 256px;
   margin-right: 32px;
+  margin-top: 18px;
 }
 
 .container3 img {
