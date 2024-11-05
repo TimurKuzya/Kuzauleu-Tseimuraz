@@ -10,3 +10,14 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Chandra';
+    src: url('Chandra.eot');
+    src: url('Chandra.eot?#iefix') format('embedded-opentype'),
+        url('Chandra.woff') format('woff'),
+        url('Chandra.ttf') format('truetype'),
+        url('Chandra.svg#Chandra') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
