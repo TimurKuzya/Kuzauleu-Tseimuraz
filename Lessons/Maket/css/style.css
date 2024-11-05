@@ -265,6 +265,23 @@ h1 {
   margin-left: 148px;
 }
 
+.lps {
+  margin-top: 280px;
+  margin-left: 22px;
+  float: left;
+}
+
+div.lps > div:nth-child(2n+1) {
+  float: left;
+  padding-top: 2px;
+}
+
+div.lps > div:nth-child(2) {
+  padding-left: 5px;
+  padding-right: 5px;
+  float: left;
+}
+
 .p1 {
   padding-top: 134px;
   font-family: Roboto, sans-serif;
