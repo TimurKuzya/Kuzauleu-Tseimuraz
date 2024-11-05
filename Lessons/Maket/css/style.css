@@ -314,7 +314,6 @@ div.lps>div:nth-child(2) {
 }
 
 .container3 img {
-  float: left;
   padding: 0px 0px 0px;
 }
 
@@ -322,7 +321,7 @@ div.lps>div:nth-child(2) {
 .container3 [src$="3.png"] {
   height: 340px;
   width: 460px;
-  padding-top: 30px;
+  margin-bottom: 30px;
 }
 
 .container3 [src$="2.png"] {
