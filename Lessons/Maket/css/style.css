@@ -229,12 +229,12 @@ div.lps>div:nth-child(2) {
 }
 
 .p1 {
-  padding-top: 134px;
   font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 44px;
   color: black;
+  padding-top: 134px;
 }
 
 .p2 {
@@ -242,7 +242,6 @@ div.lps>div:nth-child(2) {
   font-size: 24px;
   font-weight: 300;
   font-style: normal;
-  padding-top: 15px;
 }
 
 .millanova {
@@ -259,7 +258,7 @@ div.lps>div:nth-child(2) {
 
 .block2 {
   padding-left: 0px;
-  padding-top: 180px;
+  padding-top: 173px;
   text-align: center;
 }
 
@@ -418,6 +417,29 @@ img[alt="Line_12"] {
 
 /* Блок 5 */
 
-.Reviews {
+.c5_h1 {
+  text-align: center;
+  height: 268px;
+  width: 250px;
+  margin: 75px auto 0px auto;
+  padding-top: 90px;
+}
 
+.c5_p1 {
+  text-align: center;
+  margin: -169px auto 0px auto;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44px;
+  color: black;
+}
+
+.c5_p2 {
+  text-align: center;
+  margin: 12px auto 0px auto;
+  font-family: Roboto, sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  font-style: normal;
 }
