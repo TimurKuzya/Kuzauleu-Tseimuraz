@@ -156,7 +156,7 @@ body>div>div.screen_1>div {
 }
 
 .spacer {
-  height: 1px;
+  height: 0px;
   clear: both;
 }
 
@@ -242,6 +242,7 @@ div.lps>div:nth-child(2) {
   font-size: 24px;
   font-weight: 300;
   font-style: normal;
+  padding-top: 12px;
 }
 
 .millanova {
@@ -507,3 +508,32 @@ img[alt="Line_12"] {
 }
 
 /* Блок 6 */
+
+.container6 {
+  height: 964px;
+  background-color: #F8F8F8
+}
+
+.block6 {
+  margin-left: -121px;
+  margin-top: 58px;
+}
+
+.container6_1 {
+  margin: -45px auto;
+  width: 1200px;
+}
+
+.c6_news {
+  margin: 0px 72px 0px 72px;
+}
+
+.c6_block2 {
+  margin-top: 32px;
+}
+
+.news1 {
+  margin-top: 182px;
+  margin-left: 20px;
+  font-weight: 300;
+}
