@@ -81,13 +81,13 @@ button,
 
 .container {
   margin: 0 auto;
-  width: 1200px;
+  width: 1120px;
 }
 
 .container2 {
   text-align: center;
   margin: -68px auto 0 auto;
-  width: 1200px;
+  width: 1120px;
   height: 340px;
 }
 
@@ -117,7 +117,7 @@ li {
 
 .menu {
   text-decoration: none;
-  margin: 0px 427px 0px 268px;
+  margin: 0px 427px 0px 265px;
   padding-top: 33px;
   color: black;
 }
@@ -269,7 +269,7 @@ div.lps>div:nth-child(2) {
   float: left;
   height: 340px;
   width: 256px;
-  margin-right: 58px;
+  margin-right: 32px;
   margin-top: 18px;
 }
 
@@ -521,19 +521,67 @@ img[alt="Line_12"] {
 
 .container6_1 {
   margin: -45px auto;
-  width: 1200px;
+  width: 1120px;
 }
 
 .c6_news {
-  margin: 0px 72px 0px 72px;
+  margin: 0px 32px 0px 32px;
 }
 
 .c6_block2 {
-  margin-top: 32px;
+  margin-top: 29px;
 }
 
 .news1 {
-  margin-top: 182px;
-  margin-left: 20px;
+  width: 220px;
+  margin: 58px 0px 0px 28px;
+  font-weight: 300;
+}
+
+.c6_text1 {
+  line-height: normal;
+  float: none;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+.news2 {
+  width: 220px;
+  margin: 176px 0px 0px 20px;
+  font-weight: 300;
+}
+
+.c6_text2 {
+  line-height: normal;
+  float: none;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+.news3 {
+  width: 214px;
+  margin: 157px 0px 0px 20px;
+  font-weight: 300;
+}
+
+.c6_text3 {
+  line-height: normal;
+  float: none;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.news5 {
+  width: 220px;
+  margin: 58px 0px 0px 303px;
+  font-weight: 300;
+}
+
+.news6 {
+  width: 214px;
+  margin: 157px 0px 0px 20px;
   font-weight: 300;
 }
