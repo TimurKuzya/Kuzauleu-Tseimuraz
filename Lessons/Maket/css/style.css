@@ -349,7 +349,6 @@ div.lps>div:nth-child(2) {
 
 .container4 {
   background: url(../img/4_экран.png) no-repeat;
-  width: 1920px;
   height: 605px;
   padding-top: 1px;
 }
@@ -414,7 +413,6 @@ img[alt="Line_12"] {
 /* Блок 5 */
 
 .Reviews {
-  width: 1920px;
   height: 940px;
 }
 
