@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .float_left {
+            float: left;
+            margin: 0px 4px;
+        }
+
+        .float_left1 {
+            float: left;
+            margin: 0 3.5px;
+        }
+        
+        body>div {
+            clear: both;
+            position: absolute;
+        }
+
+        div>div.float_left:hover {
+            visibility: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <div class="float_left1"><img src="star1.png" alt="star1"></div>
+        <div class="float_left1"><img src="star1.png" alt="star1"></div>
+        <div class="float_left1"><img src="star1.png" alt="star1"></div>
+        <div class="float_left1"><img src="star1.png" alt="star1"></div>
+        <div class="float_left1"><img src="star1.png" alt="star1"></div>
+    </div>
+    <div>
+        <div class="float_left"><img src="star0.png" alt="star0"></div>
+        <div class="float_left"><img src="star0.png" alt="star0"></div>
+        <div class="float_left"><img src="star0.png" alt="star0"></div>
+        <div class="float_left"><img src="star0.png" alt="star0"></div>
+        <div class="float_left"><img src="star0.png" alt="star0"></div>
+    </div>
+</body>
+
+</html>
