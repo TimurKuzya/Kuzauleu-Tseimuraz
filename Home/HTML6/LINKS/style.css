@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+a:hover {
+    color: red;
+}
+
+/* Menu1 */
+
+.menu1 {
+    width: 750px;
+    margin: 10px auto;
+}
+
+td, .menu2 div div {
+    height: 40px;
+    width: 150px;
+    border-right: 2px red solid;
+    text-align: center;
+}
+
+td:last-of-type {
+    border: none;
+}
+
+/* Menu2 */
+
+.menu2 {
+    width: 750px;
+    margin: 10px auto;
+}
+
+.menu2 div div {
+    float: left;
+}
