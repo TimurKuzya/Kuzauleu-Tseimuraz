@@ -415,6 +415,7 @@ img[alt="Line_12"] {
 
 .Reviews {
   height: 940px;
+  padding-top: 75px;
 }
 
 .container5 {
@@ -427,7 +428,7 @@ img[alt="Line_12"] {
   text-align: center;
   height: 268px;
   width: 250px;
-  margin: 75px auto 0px auto;
+  margin: 0px auto 0px auto;
   padding-top: 90px;
 }
 
@@ -590,6 +591,7 @@ img[alt="Line_12"] {
 
 .We {
   height: 1382px;
+  padding-top: 75px;
 }
 
 .container7_1 {

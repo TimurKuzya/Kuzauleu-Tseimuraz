@@ -15,3 +15,75 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: blue;
 }
+
+.footer {
+    padding: 33px
+}
+
+.bg1 {
+    background: url('ball3.png');
+    background-repeat: repeat-y;
+    background-position: right top;
+}
+
+.bg2 {
+    background-color: #ffffffd9;
+}
+
+.bg3 {
+    background-image: url('2024-10-27_15-57-11.png');
+    background-repeat: repeat-y;
+    background-position: left;
+}
+
+.divMenu {
+    float: left;
+}
+
+.p_menu {
+    font-weight: bold;
+    font-size: 25px;
+    padding: 20px 0px 0px 19px;
+}
+
+ul {
+    font-size: 20px;
+    padding: 15px 10px 35px 40px;
+}
+
+.div_h1 {
+    margin-left: 250px;
+}
+
+h1 {
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    padding: 0px 15px 25px 15px;
+    text-align: justify;
+    font-size: 24px;
+}
+
+img {
+    float: left;
+    margin-right: 20px;
+    width: 350px;
+}
+
+span:first-of-type {
+    font-weight: bold;
+}
+
+span:last-of-type {
+    font-style: italic;
+}
+
+.spacer {
+    height: 1px;
+    clear: both;
+}
