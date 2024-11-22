@@ -5,18 +5,25 @@
 }
 
 .container {
-    /*height: 100vh;*/
-    position: relative;
-    background-image: url(Back20.gif);
+    background: url(Back20.gif) 20% top;
     background-repeat: repeat-y;
     background-size: 100%;
+}
+
+.container2 {
+    background: url(Back200px.png) right top;
+    background-repeat: repeat-y;
+}
+
+p {
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .left {
     position: relative;
     float: left;
     width: 20%;
-    /*height: 100vh;*/
     z-index: 2;
 }
 
@@ -29,13 +36,13 @@
 
 .center {
     position: relative;
-    /*height: 100vh;*/
+    margin-left: 20%;
+    margin-right: 200px;
     z-index: 2;
 }
 
 .left div,
-.right div,
-.center div {
+.right div {
     position: absolute;
     z-index: -1;
 }
@@ -55,17 +62,6 @@
     right: 0;
 }
 
-.ball_3 {
-    right: 0;
-    bottom: 0;
-}
-
-.ball_4 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-}
-
 .ball_4_left {
     height: 1px;
     width: 20%;
@@ -77,46 +73,28 @@
 
 .ball_3_left {
     height: 1px;
-    width: 20%;
     float: left;
     position: relative;
     bottom: 100px;
     left: -100px;
 }
 
-.right .ball_4 {
-    bottom: 0;
-    left: -100px;
-}
-
 .right_bottom {
-    position: relative;
     float: right;
     width: 200px;
     height: 1px;
 }
 
-.right_bottom .ball_3 {
+.ball_3 {
     float: right;
     position: relative;
     right: 0;
     bottom: 204px;
 }
 
-.right_bottom .ball_4 {
+.ball_4 {
     float: left;
     position: relative;
     left: -100px;
     bottom: 100px;
-}
-
-.back_right {
-    background-color: aqua;
-    position: absolute;
-    top: 0;
-    right: 0;
-    z-index: 0;
-    height: 1000px;
-    width: 200px;
-    overflow: hidden;
 }
