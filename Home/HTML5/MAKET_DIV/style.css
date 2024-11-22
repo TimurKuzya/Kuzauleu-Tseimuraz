@@ -24,8 +24,6 @@
     position: relative;
     float: right;
     width: 200px;
-    height: 100vh;
-    background-color: rgb(204, 164, 241);
     z-index: 2;
 }
 
@@ -110,4 +108,15 @@
     position: relative;
     left: -100px;
     bottom: 100px;
+}
+
+.back_right {
+    background-color: aqua;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 0;
+    height: 1000px;
+    width: 200px;
+    overflow: hidden;
 }
