@@ -138,7 +138,7 @@ button {
   margin-right: 9px;
 }
 
-.div-right img {
+.div-right img, .div-left img {
   height: 26px;
   margin: 6px 5px auto 10px;
   vertical-align: middle;
