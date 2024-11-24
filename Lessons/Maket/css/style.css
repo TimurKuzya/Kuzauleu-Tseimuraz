@@ -600,12 +600,58 @@ img[alt="Line_12"] {
 }
 
 .c7_title {
+  width: 138px;
+  height: 75px;
   color: black;
   font-family: 'Rasfire Regular Personal Use';
-  font-size: 86px;
-  margin-right: 9px;
+  font-size: 85px;
+  margin-right: 19px;
+  padding-top: 6px;
+  margin-left: -3px;
+}
+
+.c7_text1 {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.c7_block1 {
+  height: 322px;
+  width: 526px;
+}
+
+.We1 {
+  float: right;
+  width: 544px;
+  height: 359px;
+}
+
+.We1 img, .We2 img {
+  margin: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .c7_block2 {
+  margin-top: -21px;
+}
 
+.We2 {
+float: left;
+margin-right: 32px;
+}
+
+.c7_text2 {
+  float: left;
+  padding-top: 72px;
+  width: 352px;
+  height: 182px;
+  margin-right: 32px;
+}
+
+.c7_text3 {
+  float: left;
+  width: 352px;
+  height: 130px;
+  padding-top: 72px;
 }
