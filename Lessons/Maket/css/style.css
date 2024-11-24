@@ -138,7 +138,7 @@ button {
   margin-right: 9px;
 }
 
-.container img {
+.div-right img {
   height: 26px;
   margin: 6px 5px auto 10px;
   vertical-align: middle;
@@ -655,3 +655,57 @@ margin-right: 32px;
   height: 130px;
   padding-top: 72px;
 }
+
+.container7_2 {
+  margin-top: 88px;
+  width: 1120px;
+  height: 216px;
+  border-top: 1px #D4D4D4 solid;
+  border-bottom: 1px #D4D4D4 solid;
+  text-align: center;
+}
+
+.c7_2_block1 {
+  width: 263px;
+  height: 87px;
+  margin: 65px 67px auto 54px;
+}
+
+.c7_2_vline {
+  height: 63px;
+  border-left: #D4D4D4 1px solid;
+  margin: 75px 0 auto 0;
+}
+
+.c7_2_block2 {
+  width: 313px;
+  height: 133px;
+  margin: 42px 30px auto 20px;
+  border: #6B6B6B solid 1px;
+}
+
+.c7_2_block3 {
+  width: 274px;
+  height: 107px;
+  margin: 55px auto auto 57px;
+  border: #6B6B6B solid 1px;
+}
+
+.c7_2_h {
+  font-size: 24px;
+}
+
+.logo {
+  width: 263px;
+  height: 32px;
+  margin-top: 31px;
+}
+
+.logo1, .logo2, .logo3, .logo5 {
+  margin-right: 15px;
+}
+
+.logo4 {
+  margin-right: 11px;
+}
+
