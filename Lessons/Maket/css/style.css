@@ -743,12 +743,25 @@ margin-right: 32px;
 .container8 {
   background: url(../img/8_экран.png) no-repeat;
   height: 454px;
+  padding-top: 1px;
 }
 
 .c8_block1 {
   background-color: white;
   width: 1120px;
   height: 133px;
-  margin: 53px auto 20px auto;
+  margin: 140px auto 0px auto;
   border-radius: 30px;
+}
+
+.c8_p1 {
+  font-family: Roboto;
+  width: 290px;
+  height: 56px;
+  font-size: 24px;
+  margin: 39px 0px auto 64px;
+}
+
+.c8_p1 span {
+  font-style: italic;
 }
