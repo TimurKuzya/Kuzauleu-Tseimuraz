@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+a:hover {
+    color: red;
+}
+
+/* Menu1 */
+
+.menu1, .menu2, .menu3, .menu4 {
+    width: 750px;
+    margin: 20px auto;
+    height: 40px;
+}
+
+td, .menu2 div div {
+    height: 40px;
+    width: 150px;
+    border-right: 2px red solid;
+    text-align: center;
+}
+
+td:last-of-type {
+    border-right: none;
+}
+
+/* Menu2 */
+
+.menu2 div div {
+    float: left;
+    padding-top: 5px;
+}
+
+.menu2 div:last-of-type {
+    border-right: none;
+}
+
+/* Menu3 */
+
+.menu3 {
+    clear: both;
+
+}
+
+.menu3 a {
+    display: table-cell;
+    height: 40px;
+    width: 150px;
+    border-right: 2px red solid;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.menu3 a:last-of-type {
+    border-right: none;
+}
+
+/* Menu4 */
+
+li {
+    float: left;
+    height: 40px;
+    width: 137px;
+    align-content: center;
+    text-align: center;
+}
+
+ul img {
+    float: left;
+}

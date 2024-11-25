@@ -1,0 +1,100 @@
+.clear {
+    width: 100%;
+    clear: both;
+    height: 0px;
+}
+
+.container {
+    background: url(Back20.gif) 20% top;
+    background-repeat: repeat-y;
+    background-size: 100%;
+}
+
+.container2 {
+    background: url(Back200px.png) right top;
+    background-repeat: repeat-y;
+}
+
+p {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.left {
+    position: relative;
+    float: left;
+    width: 20%;
+    z-index: 2;
+}
+
+.right {
+    position: relative;
+    float: right;
+    width: 200px;
+    z-index: 2;
+}
+
+.center {
+    position: relative;
+    margin-left: 20%;
+    margin-right: 200px;
+    z-index: 2;
+}
+
+.left div,
+.right div {
+    position: absolute;
+    z-index: -1;
+}
+
+.right .ball_1 {
+    top: 0;
+    left: -100px;
+}
+
+.left .ball_2 {
+    top: 0;
+    right: -100px;
+}
+
+.ball_2 {
+    top: 0;
+    right: 0;
+}
+
+.ball_4_left {
+    height: 1px;
+    width: 20%;
+    float: left;
+    position: relative;
+    bottom: 100px;
+    left: 0;
+}
+
+.ball_3_left {
+    height: 1px;
+    float: left;
+    position: relative;
+    bottom: 100px;
+    left: -100px;
+}
+
+.right_bottom {
+    float: right;
+    width: 200px;
+    height: 1px;
+}
+
+.ball_3 {
+    float: right;
+    position: relative;
+    right: 0;
+    bottom: 204px;
+}
+
+.ball_4 {
+    float: left;
+    position: relative;
+    left: -100px;
+    bottom: 100px;
+}

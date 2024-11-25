@@ -8,6 +8,7 @@
 
 <body>
     <style>
+        
         table.CHESS {
             border-collapse: collapse;
         }
@@ -17,6 +18,23 @@
             height: 50px;
             border: solid gray 1px;
         }
+        
+        tr:nth-child(even) td:nth-child(odd), tr:nth-child(odd) td:nth-child(even) {
+            background-color: black;
+        }
+
+        table.CHESS tr:first-of-type td,
+        table.CHESS tr:last-of-type td {
+            height: 20px;
+            background-color: #81db68;
+        }
+
+        table.CHESS tr td:first-of-type,
+        table.CHESS tr td:last-of-type {
+            width: 20px;
+            background-color: #81db68;
+        }
+
     </style>
 
     <table class='CHESS'>

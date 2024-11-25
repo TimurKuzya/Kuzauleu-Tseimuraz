@@ -138,7 +138,7 @@ button {
   margin-right: 9px;
 }
 
-.container img {
+.div-right img, .div-left img {
   height: 26px;
   margin: 6px 5px auto 10px;
   vertical-align: middle;
@@ -415,6 +415,7 @@ img[alt="Line_12"] {
 
 .Reviews {
   height: 940px;
+  padding-top: 75px;
 }
 
 .container5 {
@@ -427,7 +428,7 @@ img[alt="Line_12"] {
   text-align: center;
   height: 268px;
   width: 250px;
-  margin: 75px auto 0px auto;
+  margin: 0px auto 0px auto;
   padding-top: 90px;
 }
 
@@ -584,4 +585,183 @@ img[alt="Line_12"] {
   width: 214px;
   margin: 136px 0px 0px 20px;
   font-weight: 300;
+}
+
+/* Блок 7 */
+
+.We {
+  height: 1382px;
+  padding-top: 75px;
+}
+
+.container7_1 {
+  margin: 72px auto 0px auto;
+  width: 1120px;
+}
+
+.c7_title {
+  width: 138px;
+  height: 75px;
+  color: black;
+  font-family: 'Rasfire Regular Personal Use';
+  font-size: 85px;
+  margin-right: 19px;
+  padding-top: 6px;
+  margin-left: -3px;
+}
+
+.c7_text1 {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.c7_block1 {
+  height: 322px;
+  width: 526px;
+}
+
+.We1 {
+  float: right;
+  width: 544px;
+  height: 359px;
+}
+
+.We1 img, .We2 img {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.c7_block2 {
+  margin-top: -21px;
+}
+
+.We2 {
+float: left;
+margin-right: 32px;
+}
+
+.c7_text2 {
+  float: left;
+  padding-top: 72px;
+  width: 352px;
+  height: 182px;
+  margin-right: 32px;
+}
+
+.c7_text3 {
+  float: left;
+  width: 352px;
+  height: 130px;
+  padding-top: 72px;
+}
+
+.container7_2 {
+  margin-top: 88px;
+  width: 1120px;
+  height: 216px;
+  border-top: 1px #D4D4D4 solid;
+  border-bottom: 1px #D4D4D4 solid;
+  text-align: center;
+}
+
+.c7_2_block1 {
+  width: 263px;
+  height: 87px;
+  margin: 65px 67px auto 54px;
+}
+
+.c7_2_vline {
+  height: 63px;
+  border-left: #D4D4D4 1px solid;
+  margin: 75px 0 auto 0;
+}
+
+.c7_2_block2 {
+  width: 313px;
+  height: 133px;
+  margin: 42px 30px auto 20px;
+}
+
+.c7_2_block3 {
+  width: 274px;
+  height: 107px;
+  margin: 55px auto auto 57px;
+}
+
+.c7_2_h {
+  font-size: 24px;
+  margin-bottom: 27px;
+}
+
+.c7_2_block2 div:nth-child(2) {
+  height: 52px;
+  line-height: 26px;
+  margin-bottom: 6px;
+}
+
+.c7_2_block2 div:first-of-type {
+  height: 28px;
+  margin-bottom: 21px;
+}
+
+.c7_2_block2 div:nth-of-type(3) {
+  height: 26px;
+  line-height: 26px;
+}
+
+.c7_2_block2 span {
+  text-decoration: underline;
+}
+
+.c7_2_block3 div:first-of-type {
+  height: 28px;
+  margin-bottom: 27px;
+}
+
+.c7_2_block3 div:last-of-type {
+  height: 52px;
+  line-height: 26px;
+}
+
+.logo {
+  width: 263px;
+  height: 32px;
+  margin-top: 31px;
+}
+
+.logo1, .logo2, .logo3, .logo5 {
+  margin-right: 15px;
+}
+
+.logo4 {
+  margin-right: 11px;
+}
+
+/* Блок 8 */
+
+.container8 {
+  background: url(../img/8_экран.png) no-repeat;
+  height: 454px;
+  padding-top: 1px;
+}
+
+.c8_block1 {
+  background-color: white;
+  width: 1120px;
+  height: 133px;
+  margin: 140px auto 0px auto;
+  border-radius: 30px;
+}
+
+.c8_p1 {
+  font-family: Roboto;
+  width: 290px;
+  height: 56px;
+  font-size: 24px;
+  margin: 39px 0px auto 64px;
+}
+
+.c8_p1 span {
+  font-style: italic;
 }

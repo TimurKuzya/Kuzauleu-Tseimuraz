@@ -21,3 +21,15 @@
     font-style: normal;
     font-display: swap;
 }
+
+@font-face {
+    font-family: 'Rasfire Regular Personal Use';
+    src: url('RasfireRegularPersonalUse.eot');
+    src: url('RasfireRegularPersonalUse.eot?#iefix') format('embedded-opentype'),
+        url('RasfireRegularPersonalUse.woff') format('woff'),
+        url('RasfireRegularPersonalUse.ttf') format('truetype'),
+        url('RasfireRegularPersonalUse.svg#RasfireRegularPersonalUse') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
