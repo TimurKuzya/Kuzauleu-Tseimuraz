@@ -681,18 +681,47 @@ margin-right: 32px;
   width: 313px;
   height: 133px;
   margin: 42px 30px auto 20px;
-  border: #6B6B6B solid 1px;
 }
 
 .c7_2_block3 {
   width: 274px;
   height: 107px;
   margin: 55px auto auto 57px;
-  border: #6B6B6B solid 1px;
 }
 
 .c7_2_h {
   font-size: 24px;
+  margin-bottom: 27px;
+}
+
+.c7_2_block2 div:nth-child(2) {
+  height: 52px;
+  line-height: 26px;
+  margin-bottom: 6px;
+}
+
+.c7_2_block2 div:first-of-type {
+  height: 28px;
+  margin-bottom: 21px;
+}
+
+.c7_2_block2 div:nth-of-type(3) {
+  height: 26px;
+  line-height: 26px;
+}
+
+.c7_2_block2 span {
+  text-decoration: underline;
+}
+
+.c7_2_block3 div:first-of-type {
+  height: 28px;
+  margin-bottom: 27px;
+}
+
+.c7_2_block3 div:last-of-type {
+  height: 52px;
+  line-height: 26px;
 }
 
 .logo {
@@ -709,3 +738,17 @@ margin-right: 32px;
   margin-right: 11px;
 }
 
+/* Блок 8 */
+
+.container8 {
+  background: url(../img/8_экран.png) no-repeat;
+  height: 454px;
+}
+
+.c8_block1 {
+  background-color: white;
+  width: 1120px;
+  height: 133px;
+  margin: 53px auto 20px auto;
+  border-radius: 30px;
+}
