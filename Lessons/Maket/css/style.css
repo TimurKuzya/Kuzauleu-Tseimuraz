@@ -798,14 +798,59 @@ img[alt="Line_12"] {
 
 .c8_p4 {
   background-color: #EC1C24;
-    border-radius: 30px;
-    font-family: Roboto;
-    line-height: 20px;
-    width: 168px;
-    height: 40px;
-    font-size: 16px;
-    font-weight: 500;
-    margin: 46px 0px 0px 68px;
-    color: #ffff;
-    padding: 11px 0px 10px 28px;
+  border-radius: 30px;
+  font-family: Roboto;
+  line-height: 20px;
+  width: 168px;
+  height: 40px;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 46px 0px 0px 68px;
+  color: #ffff;
+  padding: 11px 0px 10px 28px;
+}
+
+.container9 {
+  background-color: black;
+  height: 447px;
+  padding-top: 1px;
+  margin-top: -41px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.c9_block1 {
+  width: 1120px;
+  height: 168px;
+  margin: 0px auto;
+  color: white;
+  line-height: normal;
+}
+
+.c9_block1>div:first-of-type {
+  margin-top: 52px;
+}
+
+.c9_block1>div:nth-of-type(2) {
+  width: 410px;
+  height: 40px;
+  margin-top: 61px;
+}
+
+.c9_block1>div:nth-of-type(2) div:first-child {
+  font-size: 12px;
+  height: 40px;
+  align-content: center;
+}
+
+.c9_block1>div:nth-of-type(2) div:last-child {
+  font-size: 16px;
+  color: #737373;
+  border-radius: 30px;
+  width: 240px;
+  height: 40px;
+  border: white solid 1px;
+  margin-right: 0;
+  font-weight: normal;
+
 }
