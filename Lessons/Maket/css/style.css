@@ -109,7 +109,7 @@ button,
   height: 898px;
 }
 
-li {
+ul.menu li {
   float: left;
   margin: 0px 15px;
   align-content: center;
@@ -811,7 +811,7 @@ img[alt="Line_12"] {
 }
 
 .container9 {
-  background-color: black;
+  background-color: #222222;
   height: 447px;
   padding-top: 1px;
   margin-top: -41px;
@@ -844,7 +844,7 @@ img[alt="Line_12"] {
 }
 
 .c9_block1>div:nth-of-type(2) button.float_right {
-  font-size: 16px;
+  font-size: 14px;
   color: #737373;
   border-radius: 30px;
   width: 240px;
@@ -852,9 +852,7 @@ img[alt="Line_12"] {
   border: white solid 1px;
   margin-right: 0;
   font-weight: normal;
-  padding: 0px 15px 0px 17px;
-  vertical-align: middle;
-
+  padding: 0px 17px 0px 17px;
 }
 
 .footer {
@@ -863,4 +861,57 @@ img[alt="Line_12"] {
   margin: 0 auto;
   border-top: #494949 solid 1px;
   border-bottom: #494949 solid 1px;
+  align-content: center;
+}
+
+img[alt='mail_wb'] {
+  vertical-align: middle;
+  margin-right: 9px;
+  width: 22px;
+}
+
+img[alt='strelka'] {
+  vertical-align: middle;
+  margin-left: 67px;
+  height: 11px;
+}
+
+.footer div {
+  width: 925px;
+  height: 14px;
+  font-size: 12px;
+  margin: 0 auto;
+  color: white;
+}
+
+.menu_footer li {
+  float: left;
+  margin-right: 58px;
+}
+
+.menu_footer li:last-of-type {
+  margin-right: 0px;
+}
+
+.soc {
+  width: 407px;
+  height: 32px;
+  margin: 42px auto;
+}
+
+.menu_soc li {
+  float: left;
+  margin-right: 43px;
+}
+
+.menu_soc li:last-of-type {
+  margin-right: 0px;
+}
+
+.copy {
+  width: 245px;
+  height: 14px;
+  margin: 30px auto;
+  font-size: 12px;
+  color: #525252;
 }
