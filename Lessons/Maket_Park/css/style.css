@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+.montserrat-font {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+  }
+
 .block1 {
     height: 1024px;
     background: url(../img/Back_b1.png) no-repeat;
@@ -11,7 +18,7 @@
 
 .container {
     width: 1440px;
-    height: 1024px;
+    height: 0px;
     margin: 0 auto;
 }
 
@@ -95,6 +102,39 @@ button {
 }
 
 .line {
-    height: 1px;
+    height: 96px;
     border-bottom: white solid 1px;
+}
+
+.block2 {
+    height: 903px;
+    background-color: #5B5B5B;
+}
+
+.b2_1 {
+    height: 787px;
+}
+
+.b2_1_1 {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #242424;
+
+.b2_1p {
+    width: 600px;
+    height: 55px;
+    font-weight: bold;
+    line-height: 128%;
+    color: #FFFFFF;
+    font-size: 45px;
+}
+
+.b2_1_img1 {
+
+}
+
+.b2_1_img2 {
+
 }
