@@ -121,14 +121,15 @@ button {
     align-items: center;
     justify-content: space-between;
     background-color: #242424;
+}
 
 .b2_1p {
     width: 600px;
     height: 55px;
     font-weight: bold;
-    line-height: 128%;
     color: #FFFFFF;
     font-size: 45px;
+    margin: -127.5px auto;
 }
 
 .b2_1_img1 {
