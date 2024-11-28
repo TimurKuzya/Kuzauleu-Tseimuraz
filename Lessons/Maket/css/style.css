@@ -69,19 +69,28 @@ button,
 }
 
 .div-left {
-  padding: 17px 0px 17px;
-  width: 17%;
+  width: 159px;
+  height: 58px;
+  margin-top: 13px;
+  align-content: center;
 }
 
 .div-right {
-  text-align: right;
-  padding: 17px 0px 17px;
-  width: 38%;
+  width: 345px;
+  height: 39px;
+  align-content: center;
+  margin-top: 23px;
 }
 
 .container {
   margin: 0 auto;
   width: 1120px;
+}
+
+.container1 {
+  margin: 0 auto;
+  width: 1120px;
+  height: 85px;
 }
 
 .container2 {
@@ -116,10 +125,12 @@ ul.menu li {
 }
 
 .menu {
-  text-decoration: none;
-  margin: 0px 427px 0px 265px;
-  padding-top: 33px;
   color: black;
+  width: 437px;
+  height: 16px;
+  float: left;
+  margin: 33px 86px;
+  line-height: normal;
 }
 
 .hot {
@@ -127,22 +138,63 @@ ul.menu li {
   color: red;
 }
 
-button {
-  border-style: solid;
-  border-width: thin;
-  border-radius: 20px;
-  padding: 3px 15px 0px 15px;
+.but1 {
+  border: solid 1px black;
+  border-radius: 30px;
   height: 39px;
+  width: 162px;
   font-weight: bold;
+  margin-right: 30px;
+  text-align: center;
   vertical-align: top;
-  margin-right: 9px;
 }
 
-.div-right img,
+/*.div-right img,
 .div-left img {
   height: 26px;
   margin: 6px 5px auto 10px;
   vertical-align: middle;
+}*/
+
+/*img[alt="anex"] {
+  height: 26px;
+  margin: 6px 5px auto 10px;
+  vertical-align: middle;
+}*/
+
+.img {
+  width: 153px;
+  float: right;
+  align-content: center;
+}
+
+img[alt="phone"],
+img[alt="location"],
+img[alt="line_6"],
+img[alt="burger"]
+ {
+  display: block;
+  height: 24px;
+  float: left;
+  margin: 7px 11px 7px 0;
+}
+
+img[alt="line_6"] {
+margin-top: 0;
+margin-right: 24px;
+float: left;
+height: 39px;
+}
+
+img[alt="location"] {
+  margin-right: 25px;
+}
+
+img[alt="burger"] {
+  margin-right: 0;
+  margin-top: 11px;
+  width: 41px;
+  height: 15.5px;
 }
 
 .container img[alt="burger"] {
@@ -871,6 +923,10 @@ img[alt='mail_wb'] {
 }
 
 img[alt='strelka'] {
+  margin-left: 8px;
+}
+
+img[alt='strelka_wb'] {
   vertical-align: middle;
   margin-left: 67px;
   height: 11px;
