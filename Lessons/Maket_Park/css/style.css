@@ -218,6 +218,23 @@ button {
 
 .block3 {
     height: 516px;
-    display: flex;
     background-color: #5B5B5B;
+}
+
+.container2 {
+    width: 1440px;
+    height: 431px;
+    display: flex;
+    background-image: url(../img/AbstractB2.png);
+background-repeat: no-repeat;   
+}
+
+.b3_con1 {
+    width: 726px;
+    height: 431px;
+}
+
+.b3_con2 {
+    width: 682px;
+    height: 431px;
 }
