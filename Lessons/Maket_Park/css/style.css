@@ -104,7 +104,7 @@ button {
 
 .block2 {
     height: 903px;
-    background-color: #5B5B5B;
+    background-color: #242424;
 }
 
 .b2_1 {
@@ -218,15 +218,22 @@ button {
 
 .block3 {
     height: 516px;
-    background-color: #5B5B5B;
+    background-color: #242424;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    background-image: url(../img/AbstractB2.png);
+    background-repeat: no-repeat;
+    background-position-x: 955px;
+    background-position-y: 170.5px;
 }
 
 .container2 {
     width: 1440px;
     height: 431px;
     display: flex;
-    background-image: url(../img/AbstractB2.png);
-background-repeat: no-repeat;   
+    justify-content: space-between;
 }
 
 .b3_con1 {
@@ -237,4 +244,114 @@ background-repeat: no-repeat;
 .b3_con2 {
     width: 682px;
     height: 431px;
+}
+
+.b3_con1 p {
+    color: white;
+    line-height: 123%;
+}
+
+.p1 {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.p2 {
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 32px;
+}
+
+.p2 .p2_2 {
+    line-height: 200%;
+}
+
+.p3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 105px;
+}
+
+.b3_con1_p4 {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.p4 {
+    font-size: 19px;
+    font-weight: 500;
+}
+
+img {
+    max-width: 100%;
+}
+
+img[alt="RectangleB2"] {
+    margin-right: 16px;
+}
+
+.block4 {
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #242424;
+    z-index: -1;
+    position: relative;
+}
+
+.b4_1p {
+    width: 984px;
+    height: 55px;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 45px;
+    margin: -86.5px auto;
+}
+
+.block5 {
+    height: 520px;
+    background-color: #242424;
+    display: flex;
+    margin-top: 118px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container3 {
+    width: 1440px;
+    height: 456px;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    line-height: 150%;
+    font-weight: 600;
+    text-align: center;
+}
+
+.prem1 {
+    width: 345px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.prem2 {
+    width: 345px;
+    height: 243px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+img[alt="Icon"] {
+    margin-bottom: 20px;
 }
