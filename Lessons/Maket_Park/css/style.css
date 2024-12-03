@@ -292,13 +292,19 @@ img[alt="RectangleB2"] {
 }
 
 .block4 {
+    height: 1467px;
+    display: flex;
+    background-color: #242424;
+    z-index: -1;
+    position: relative;
+    flex-direction: column;
+}
+
+.b4_1 {
     height: 120px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #242424;
-    z-index: -1;
-    position: relative;
 }
 
 .b4_1p {
@@ -308,9 +314,10 @@ img[alt="RectangleB2"] {
     color: #FFFFFF;
     font-size: 45px;
     margin: -86.5px auto;
+    text-align: center;
 }
 
-.block5 {
+.b4_2 {
     height: 520px;
     background-color: #242424;
     display: flex;
@@ -337,9 +344,10 @@ img[alt="RectangleB2"] {
     width: 345px;
     height: 300px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     flex-direction: column;
+    padding-top: 40px;
 }
 
 .prem2 {
