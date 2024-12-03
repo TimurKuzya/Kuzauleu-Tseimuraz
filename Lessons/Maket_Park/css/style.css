@@ -11,12 +11,17 @@
     font-style: normal;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
 .block1 {
     height: 1024px;
     background: url(../img/Back_b1.png) no-repeat;
 }
 
-.container {
+.container1 {
     width: 1440px;
     height: 0px;
     margin: 0 auto;
@@ -100,6 +105,10 @@ button {
 
 .line {
     border-bottom: white solid 1px;
+}
+
+.b1_title {
+    display: flex;
 }
 
 .block2 {
