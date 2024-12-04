@@ -342,7 +342,6 @@ img[alt="RectangleB2"] {
 }
 
 .block4 {
-    height: 1467px;
     display: flex;
     background-color: #242424;
     z-index: -1;
@@ -415,7 +414,7 @@ img[alt="Icon"] {
 }
 
 .b4_3 {
-    height: 43vw;
+    height: 42.78vw;
     background: url(../img/FrameB4.png) no-repeat;
     background-size: contain;
     position: relative;
@@ -609,5 +608,23 @@ img[alt="LineRight"] {
 }
 
 .block5 {
-    
+    height: 896px;
+}
+
+.b5_1 {
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #242424;
+}
+
+.b5_1p {
+    width: 984px;
+    height: 55px;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 45px;
+    margin: -88.5px auto;
+    text-align: center;
 }
