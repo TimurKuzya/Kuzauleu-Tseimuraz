@@ -19,11 +19,13 @@
 .block1 {
     height: 1024px;
     background: url(../img/Back_b1.png) no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .container1 {
     width: 1440px;
-    height: 0px;
     margin: 0 auto;
     height: 96px;
     display: flex;
@@ -33,7 +35,6 @@
 
 .label {
     width: 253px;
-    height: 40px;
     display: flex;
     align-items: center;
 }
@@ -41,6 +42,7 @@
 .label div:first-of-type {
     width: 107px;
     border-right: solid 1px #D9D9D9;
+    display: flex;
 }
 
 .label div:last-of-type {
@@ -81,13 +83,12 @@ ul {
 
 .contactme {
     width: 314px;
-    height: 56px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
-.contactme div:nth-of-type(2) {
+.contactme div:nth-of-type(1) {
     height: 40px;
     width: 1px;
     border-left: white solid 1px;
@@ -104,16 +105,56 @@ button {
 }
 
 .line {
+    width: 100vw;
     border-bottom: white solid 1px;
 }
 
 .b1_title {
     display: flex;
+    width: 1440px;
+    justify-content: space-between;
+    margin-top: 204px;
+}
+
+.b1_title div:nth-of-type(2) {
+    color: white;
+    font-size: 28px;
+    line-height: 123%;
+    font-weight: 500;
+    margin-top: 16px;
+}
+
+.b1_title div:nth-of-type(3) {
+    color: #242424;
+    background-color: white;
+    font-size: 18px;
+    width: 260px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    margin-top: 32px;
+}
+
+h1 {
+    font-size: 72px;
+    font-weight: 700;
+    color: white;
+    line-height: 123%;
+}
+
+iframe {
+    border-radius: 21px;
+    width: 714px;
+    height: 506px;
 }
 
 .block2 {
     height: 903px;
     background-color: #242424;
+    display: flex;
+    flex-direction: column;
 }
 
 .b2_1 {
@@ -389,8 +430,6 @@ img[alt="Icon"] {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    width: 90px;
-    height: 32px;
     position: absolute;
 }
 
@@ -456,4 +495,119 @@ img[alt="Icon"] {
 .h1 {
     left: 75%;
     top: 41%;
+}
+
+img[alt="LineRightYellow"] {
+    position: relative;
+    top: -12px;
+    right: 3px;
+    z-index: 0;
+}
+
+img[alt="LineLeft"] {
+    position: relative;
+    top: -12px;
+    left: 10px;
+    z-index: 0;
+}
+
+.b4_3_vogue {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    height: 47px;
+    position: absolute;
+    right: 74%;
+    top: 52.70%;
+}
+
+.b4_3_vogue .butYel {
+    border: 1px white solid;
+    border-radius: 43px;
+    background-color: #F8B806;
+    width: 62px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+    padding: 0;
+    justify-content: center;
+}
+
+.butGreen {
+    border: 1px white solid;
+    border-radius: 43px;
+    background-color: #099340;
+    width: 62px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    z-index: 1;
+}
+
+.b4_3_park {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    height: 47px;
+    position: absolute;
+    left: 50.3%;
+    top: 9%;
+}
+
+.b4_3_garden1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    height: 55px;
+    position: absolute;
+    left: 27.8%;
+    top: 76%;
+}
+
+.b4_3_garden2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 55px;
+    position: absolute;
+    right: 28%;
+    top: 60.8%;
+}
+
+img[alt="LineRight"] {
+    position: relative;
+    top: -12px;
+    left: -10px;
+    z-index: 0;
+}
+
+.butGreen1 {
+    border: 1px white solid;
+    border-radius: 43px;
+    background-color: #099340;
+    width: 96px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.butGreen2 {
+    border: 1px white solid;
+    border-radius: 43px;
+    background-color: #099340;
+    width: 96px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.block5 {
+    
 }
