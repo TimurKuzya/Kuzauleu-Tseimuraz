@@ -18,7 +18,7 @@
 
 .block1 {
     height: 1024px;
-    background: url(../img/Back_b1.png) no-repeat;
+    background: url(../img/Back_b1.jpg) no-repeat;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -415,7 +415,7 @@ img[alt="Icon"] {
 
 .b4_3 {
     height: 42.78vw;
-    background: url(../img/FrameB4.png) no-repeat;
+    background: url(../img/FrameB4.jpg) no-repeat;
     background-size: contain;
     position: relative;
     color: white;
@@ -609,6 +609,13 @@ img[alt="LineRight"] {
 
 .block5 {
     height: 896px;
+    flex-direction: column;
+    align-items: stretch;
+    background: url(../img/Abstract_Design.png) no-repeat;
+    background-position: right bottom;
+    background-color: #5B5B5B;
+    z-index: -2;
+    position: relative;
 }
 
 .b5_1 {
@@ -627,4 +634,86 @@ img[alt="LineRight"] {
     font-size: 45px;
     margin: -88.5px auto;
     text-align: center;
+}
+
+
+.block5,
+.b5_2,
+.b5_2_plan,
+.plan1,
+.plan2 {
+    display: flex;
+}
+
+.b5_2 {
+    height: 740px;
+    justify-content: center;
+    margin-top: 120px;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.b5_2_plan {
+    width: 1440px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.plan1 {
+    width: 726px;
+    height: 676px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.plan2 {
+    width: 682px;
+    height: 595px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.plan1>div:nth-of-type(2) {
+    display: flex;
+    justify-content: space-between;
+}
+
+.plan2 div:nth-of-type(1) {
+    line-height: 123%;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.plan2 div:nth-of-type(2), .plan2 div:nth-of-type(3) {
+    line-height: 123%;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.plan2 div:nth-of-type(4) {
+    line-height: 123%;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.plan2 div:nth-of-type(5) {
+    line-height: 123%;
+    font-size: 22px;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.plan2 div:nth-of-type(6) {
+    display: flex;
+    font-family: Inter;
+    line-height: 123%;
+    font-size: 16px;
+    font-weight:500;
+    color: #242424;
+    width: 682px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #F8B806;
+    justify-content: center;
+    align-items: center;
 }
