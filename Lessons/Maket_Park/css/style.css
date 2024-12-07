@@ -831,3 +831,23 @@ img[alt="LineRight"] {
     justify-content: space-around;
     align-items: center;
 }
+
+.block7 {
+    height: 1008px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.b7_1 {
+    height: 936px;
+    width: 1680px;
+    display: flex;
+    color: white;
+}
+
+.b7_1_p1 {
+    font-size: 58px;
+    line-height: 123%;
+    font-weight: 600;
+}
