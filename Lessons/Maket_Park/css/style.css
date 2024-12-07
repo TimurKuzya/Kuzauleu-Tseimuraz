@@ -70,7 +70,7 @@ body {
     align-items: center;
 }
 
-ul {
+.menu ul {
     width: 528px;
     display: flex;
     flex-direction: row;
@@ -725,4 +725,109 @@ img[alt="LineRight"] {
 
 .block6 {
     height: 1502px;
+}
+
+.b6_1 {
+    height: 1368px;
+
+}
+
+.b6_1_con1 {
+    height: 156px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.b6_1_con1>img:nth-of-type(1) {
+    position: absolute;
+    left: 0;
+}
+
+.b6_1_con1>img:nth-of-type(2) {
+    position: absolute;
+    right: 0;
+    transform: scaleX(-1);
+}
+
+.b6_1_con1p {
+    COLOR: white;
+    line-height: 123%;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.b6_1_con2 {
+    height: 1212px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.b6_1_con2>img:nth-of-type(1) {
+    position: absolute;
+    bottom: -80px;
+    right: 159px;
+}
+
+.b6_1_con2_1 {
+    width: 1440px;
+    display: flex;
+    height: 357px;
+    justify-content: space-between;
+}
+
+.b6_1_con2_1p {
+    width: 726px;
+    display: flex;
+    position: relative;
+    color: white;
+    font-size: 32px;
+    line-height: 123%;
+    font-weight: 400;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.b6_p1,
+.b6_p2 {
+    position: absolute;
+    font-family: "Tektur", sans-serif;
+    font-size: 217px;
+    font-weight: 700;
+    display: block;
+    color: white;
+    line-height: 123%;
+}
+
+.b6_p1 {
+    top: -48px;
+    left: 0;
+}
+
+.b6_p2 {
+    bottom: -42px;
+    right: 0;
+    transform: scaleY(-1) scaleX(-1);
+}
+
+.b6_1_con2_2 {
+    display: flex;
+    height: 823px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.b6_1_con2_2 ul {
+    display: flex;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    height: 60px;
+    background-color: #797979;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
