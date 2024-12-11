@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
 
@@ -12,20 +12,20 @@
     <div>
         <p>Для публикации вашей статьи заполните, пожалуйста, следующую форму:</p>
         <form action="" method="post">
-            <label>Название статьи:<input type="text" name="title" id="title"></label>
-            <label>Рубрика:<select name="rubrika">
+            <label>Название статьи:<br><input type="text" name="title" id="title"></label>
+            <label>Рубрика:<br><select name="rubrika">
                     <option value="1">Информационная безопасность</option>
                     <option value="2">Тестирование ПО</option>
                     <option value="3" selected>Программирование</option>
                     <option value="4">Маркетинг и продажи</option>
                     <option value="5">Вэб-дизайн и компьютерная графика</option>
                 </select></label>
-            <label>Публикация:
+            <label>Публикация:<br>
                 <input type="radio" name="publication" value="1">на сайте<br>
                 <input type="radio" name="publication" value="2" checked>в журнале<br>
                 <input type="radio" name="publication" value="3">на сайте и в журнале<br></label>
-            <label>Разрешить комментарии: <input type="checkbox" name="comment" id="comment"></label>
-            <label>Текст статьи:<textarea name="mytext"></textarea></label>
+            <label>Разрешить комментарии: <input type="checkbox" name="comment" id="comment"><br></label>
+            <label>Текст статьи:<textarea name="mytext"></textarea><br></label>
             <input type="submit" value="Опубликовать">
         </form>
     </div>
