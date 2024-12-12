@@ -19,7 +19,8 @@ div {
   float: left;
   clear: none;
   width: auto;
-  margin-left: -10px; }
+  margin-left: -10px;
+  margin-top: 0; }
 
 .text_st {
   clear: both; }
