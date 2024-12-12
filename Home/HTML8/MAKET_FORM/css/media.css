@@ -1,31 +1,32 @@
-body{
-    padding: 1%;
-}
-
 div {
-    /*padding: 20px; */
     font-size: 32px;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     margin-bottom: 0px;
     margin-top: 18px;
+}
 
-        div {
-        clear: both;
-        float: left;
-        width: 35%;
-    }
+div div {
+    clear: both;
+    width: 35%;
+    float: none;
+}
 
+
+body {
+    padding: 1%;
 }
 
 .check {
     width: auto;
+    float: left;
 }
 
 .radio {
-    float: left;
-    clear: none;
+    float: none;
     width: auto;
     margin-left: -10px;
+    margin-bottom: 40px;
+    margin-top: 0;
 }
 
 .text_st {
@@ -41,16 +42,17 @@ input[type="text"],
 select,
 textarea {
     height: 38px;
-    width: 64%;
+    width: 100%;
     font-size: 18px;
     margin: 10px 0% 10px 0px;
-    float: right;
+    float: none;
 }
 
+
 select[name="rubrika"] {
-    width: 35%;
-    margin-left: 10px;
-    float: left;
+    width: 60%;
+    margin-left: 0;
+    float: none;
 }
 
 textarea {
@@ -68,7 +70,7 @@ input[type="radio"] {
     margin-left: 20px;
 }
 
-.radio>div{
+.radio>div {
     width: auto;
     clear: none;
 }
@@ -78,7 +80,7 @@ input[type="checkbox"] {
     width: 22px;
     margin-left: 15px;
     margin-top: 28px;
-    float: left;
+    float: none;
 }
 
 input[type="radio"]:nth-of-type(3),

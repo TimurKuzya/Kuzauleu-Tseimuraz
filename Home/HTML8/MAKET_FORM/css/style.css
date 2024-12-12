@@ -38,7 +38,7 @@ textarea {
   float: right; }
 
 select[name="rubrika"] {
-  width: 23%;
+  width: 35%;
   margin-left: 10px;
   float: left; }
 
@@ -54,6 +54,10 @@ input[type="radio"] {
   width: 22px;
   margin-right: 10px;
   margin-left: 20px; }
+
+.radio > div {
+  width: auto;
+  clear: none; }
 
 input[type="checkbox"] {
   height: 22px;
