@@ -1,3 +1,6 @@
+body {
+  padding: 1%; }
+
 div {
   /*padding: 20px; */
   font-size: 32px;
@@ -5,15 +8,9 @@ div {
   margin-bottom: 0px;
   margin-top: 18px; }
   div div {
-    width: 36vw;
-    float: left; }
-  div div {
     clear: both;
     float: left;
-    width: 36vw; }
-  div div {
-    clear: both;
-    float: left; }
+    width: 35%; }
 
 .check {
   width: auto; }
@@ -21,7 +18,8 @@ div {
 .radio {
   float: left;
   clear: none;
-  width: auto; }
+  width: auto;
+  margin-left: -10px; }
 
 .text_st {
   clear: both; }
@@ -34,28 +32,28 @@ input[type="text"],
 select,
 textarea {
   height: 38px;
-  width: 60vw;
+  width: 64%;
   font-size: 18px;
-  margin: 10px 1vw 10px 0px;
+  margin: 10px 0% 10px 0px;
   float: right; }
 
 select[name="rubrika"] {
   width: 23%;
-  margin-left: 1vw;
+  margin-left: 10px;
   float: left; }
 
 textarea {
   height: 120px;
   font-size: 24px;
   font-style: italic;
-  width: 97vw;
+  width: 100%;
   float: none; }
 
 input[type="radio"] {
   height: 22px;
   width: 22px;
   margin-right: 10px;
-  margin-left: 1vw; }
+  margin-left: 20px; }
 
 input[type="checkbox"] {
   height: 22px;
