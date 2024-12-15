@@ -87,3 +87,16 @@ span:last-of-type {
     height: 1px;
     clear: both;
 }
+
+.button {
+    position: fixed;
+    height: 50px;
+    width: 115px;
+    border: solid black 1px;
+    background-color: rgb(80 243 168);
+    top: 40px;
+    right: 50px;
+    align-content: center;
+    text-align: center;
+    font-size: 18px;
+}
