@@ -8,24 +8,24 @@
 <body>
     <script>
 
-        var LastName = prompt('Введите вашу фамилию');
-        var FirstName = prompt('Введите ваше имя');
-        var MiddleName = prompt('Введите ваше отчество');
-        var AgeStr = prompt('Сколько вам полных лет');
-        var Age = parseInt(AgeStr);
-        var Gender
-        var GenderBase = confirm('ваш пол - мужской?')?(Gender='мужской'):(Gender='женский');
-        var Days = (Age * 365);
-        var AgeFut = (Age + 5);
-        var Pension = ((Gender == 'мужской') && (Age >= 63))?'ДА':((Gender == 'женский') && (Age >= 58)?'ДА':'НЕТ');
+        var lastName = prompt('Введите вашу фамилию');
+        var firstName = prompt('Введите ваше имя');
+        var middleName = prompt('Введите ваше отчество');
+        var ageStr = prompt('Сколько вам полных лет');
+        var age = parseInt(ageStr);
+        var gender;
+        var genderBase = confirm('ваш пол - мужской?')?(gender='мужской'):(gender='женский');
+        var days = (age * 365);
+        var ageFut = (age + 5);
+        var pension = ((gender == 'мужской') && (age >= 63))?'ДА':((gender == 'женский') && (age >= 58)?'ДА':'НЕТ');
         alert
             (
-                "ваше ФИО: " + LastName + ' ' + FirstName + ' ' + MiddleName +
-                "\nваш возраст в годах: " + Age +
-                '\nваш возраст в днях: ' + Days +
-                '\nчерез 5 лет вам будет: ' + AgeFut +
-                '\nваш пол: ' + Gender +
-                '\nвы на пенсии: ' + Pension
+                "ваше ФИО: " + lastName + ' ' + firstName + ' ' + middleName +
+                "\nваш возраст в годах: " + age +
+                '\nваш возраст в днях: ' + days +
+                '\nчерез 5 лет вам будет: ' + ageFut +
+                '\nваш пол: ' + gender +
+                '\nвы на пенсии: ' + pension
             );
     </script>
 </body>
