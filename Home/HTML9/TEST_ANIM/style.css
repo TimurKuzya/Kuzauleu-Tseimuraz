@@ -1,3 +1,11 @@
+.anim1::before {
+    width: 129px;
+    height: 109px;
+    font-weight: 500;
+    font-size: 28px;
+    animation: Animation1 5s steps(5), Animation2 5s steps(5), infinite;
+}
+
 @keyframes Animation1 {
     from {
         background: url(../TEST_ANIM/img/jsBcEYs.png) 0 0;
@@ -5,6 +13,7 @@
 
     to {
         background: url(../TEST_ANIM/img/jsBcEYs.png) -665px 0;
+        
     }
 }
 
