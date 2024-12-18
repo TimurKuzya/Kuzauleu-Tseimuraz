@@ -1,0 +1,27 @@
+@keyframes Animation1 {
+    from {
+        background: url(../TEST_ANIM/img/jsBcEYs.png) 0 0;
+    }
+
+    to {
+        background: url(../TEST_ANIM/img/jsBcEYs.png) -665px 0;
+    }
+}
+
+@keyframes Animation2 {
+    from {
+        background: url(../TEST_ANIM/img/jsBcEYs.png) 0 -109px;
+    }
+
+    to {
+        background: url(../TEST_ANIM/img/jsBcEYs.png) -665px -109px;
+    }
+}
+
+.anim1 {
+    width: 129px;
+    height: 109px;
+    font-weight: 500;
+    font-size: 28px;
+    animation: Animation1 5s steps(5), Animation2 5s steps(5), infinite;
+}
