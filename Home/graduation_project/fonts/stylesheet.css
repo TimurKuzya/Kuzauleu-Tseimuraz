@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'DM Serif Display';
+    src: url('DMSerifDisplay-Regular.woff2') format('woff2'),
+        url('DMSerifDisplay-Regular.woff') format('woff'),
+        url('DMSerifDisplay-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jost';
+    src: url('Jost-Regular.woff2') format('woff2'),
+        url('Jost-Regular.woff') format('woff'),
+        url('Jost-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
