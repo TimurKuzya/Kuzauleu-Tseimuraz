@@ -1,121 +1,100 @@
 * {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box; }
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
 
-.font_DM_Serif {
-  font-family: 'DM Serif Display'; }
-
-.font_Jost {
-  font-family: 'Jost'; }
+.DM_Serif_font {
+    font-family: 'DM Serif Display';
+}
 
 .container {
-  height: 8183px;
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  position: relative;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: space-evenly;
-  -ms-flex-pack: space-evenly;
-  justify-content: flex-start;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center; }
-
-.block_1 {
-  background: url(../img/Banner_HP.webp);
-  background-repeat: no-repeat;
-  background-size: contain;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100vw;
-  height: 1024px; }
-
-.menu_block {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  height: 200px;
-  width: 100vw;
-  position: fixed;
-  top: 0;
-  left: 0;
-  background-color: #ffffff82;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-backdrop-filter: blur(8px);
-  backdrop-filter: blur(8px); }
-
-.menu {
-  display: -webkit-box;
-  width: 1200px;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between; }
-
-.menu_p {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 624px;
-  height: 25px;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row; }
-  .menu_p div:nth-of-type(1) {
-    color: black;
+    height: 8183px;
+    width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    width: 572px;
-    font-size: 20px;
-    line-height: 25px;
-    text-align: center;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between; }
-    .menu_p div:nth-of-type(1) a {
-      color: black;
-      text-decoration: none; }
+    position: relative;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.block_1 {
+    background: url(../img/Banner_HP.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100vw;
+    height: 1024px;
+}
+
+.menu_block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 200px;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #ffffff82;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+}
+
+.menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.menu_p {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 624px;
+    height: 25px;
+}
+
+.menu_p div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
 
 .logo {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  height: 50px;
-  width: 177px;
-  font-family: 'DM Serif Display';
-  font-size: 40px;
-  line-height: 50px;
-  font-weight: 400;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center; }
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 50px;
+    width: 177px;
+    font-family: 'DM Serif Display';
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 400;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
 
 /*# sourceMappingURL=style.css.map */
