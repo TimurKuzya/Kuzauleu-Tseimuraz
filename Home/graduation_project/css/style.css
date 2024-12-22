@@ -1066,7 +1066,7 @@ footer {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 1920px;
+  width: 100%;
   height: 577px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
