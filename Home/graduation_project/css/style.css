@@ -824,7 +824,9 @@ header {
   height: 521px;
   gap: 27px; }
 
-.b8_1 {
+.b8_1,
+.b8_2,
+.b8_3 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -843,6 +845,9 @@ header {
       -ms-flex-pack: center;
           justify-content: center; }
 
+.b8_2 {
+  background-color: #f4f0ec; }
+
 .content_b8_1 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -855,7 +860,7 @@ header {
       -ms-flex-direction: column;
           flex-direction: column; }
 
-.content_b8_1_back {
+.content_b8_1_back1 {
   width: 340px;
   height: 289.27px;
   gap: 0px;
@@ -864,6 +869,28 @@ header {
   background-repeat: no-repeat;
   background-size: 622.62px 415.08px;
   background-position: -163.43px -65.5px;
+  overflow: hidden; }
+
+.content_b8_1_back2 {
+  width: 340px;
+  height: 289.27px;
+  gap: 0px;
+  border-radius: 45px 45px 0px 0px;
+  background-image: url(../img/BlogPhoto2.png);
+  background-repeat: no-repeat;
+  background-size: 580px 386px;
+  background-position: -119px -48px;
+  overflow: hidden; }
+
+.content_b8_1_back3 {
+  width: 340px;
+  height: 289.27px;
+  gap: 0px;
+  border-radius: 45px 45px 0px 0px;
+  background-image: url(../img/BlogPhoto3.png);
+  background-repeat: no-repeat;
+  background-size: 945px 630px;
+  background-position: -324px -138px;
   overflow: hidden; }
 
 .tag_b8_1 {
