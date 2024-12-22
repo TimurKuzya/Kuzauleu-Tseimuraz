@@ -870,3 +870,115 @@ header {
         text-decoration-skip-ink: none;
     }
 }
+
+.block_9 {
+    display: flex;
+    width: 1199px;
+    height: 374px;
+    gap: 10px;
+    border-radius: 70px;
+    background: rgba(41, 47, 54, 1);
+    align-items: center;
+    justify-content: center;
+}
+
+.contact_b9 {
+    display: flex;
+    flex-direction: column;
+    width: 569px;
+    height: 214px;
+    gap: 32px;
+    align-items: center;
+    justify-content: space-between;
+
+    >div {
+        display: flex;
+        flex-direction: column;
+        height: 107px;
+        gap: 11px;
+        color: white;
+
+        >p:nth-of-type(1) {
+            font-size: 50px;
+            font-weight: 400;
+            line-height: 62.5px;
+            text-align: center;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+        }
+
+        >p:nth-of-type(2) {
+            font-size: 22px;
+            font-weight: 400;
+            line-height: 33px;
+            letter-spacing: 0.01em;
+            text-align: center;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+        }
+    }
+
+    >button {
+        display: flex;
+        width: 237.14px;
+        height: 75px;
+        gap: 10px;
+        border-radius: 18px;
+        background: rgba(205, 162, 116, 1);
+        box-shadow: 0px 10px 20px 0px rgba(31, 32, 34, 1);
+        align-items: center;
+        justify-content: center;
+        color: white;
+
+        >div {
+            display: flex;
+            width: 163.14px;
+            height: 23px;
+            gap: 11px;
+            align-items: center;
+            justify-content: space-between;
+
+            >p {
+                font-size: 18px;
+                font-weight: 600;
+                line-height: 22.5px;
+                letter-spacing: 0.02em;
+                text-align: center;
+                text-underline-position: from-font;
+                text-decoration-skip-ink: none;
+            }
+        }
+    }
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    width: 1920px;
+    height: 577px;
+}
+
+.map {
+    display: flex;
+    flex-direction: row;
+    width: 1199px;
+    height: 370px;
+    gap: 101px;
+}
+
+.copyright {
+    display: flex;
+    height: 73px;
+    border: 1px 0px 0px 0px;
+    border: 1px solid rgba(229, 229, 229, 1);
+
+    >p {
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 33px;
+        letter-spacing: 0.01em;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+    }
+}
