@@ -20,6 +20,7 @@
 @media only screen and (max-width: 580px) {
     .menu_p nav {
         justify-content: center;
+        gap: 15px;
     }
 }
 
