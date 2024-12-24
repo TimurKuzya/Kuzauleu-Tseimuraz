@@ -81,6 +81,11 @@ header {
     justify-content: space-between;
 }
 
+@keyframes Search {
+    from {}
+
+}
+
 .menu_p {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -110,6 +115,31 @@ header {
             color: black;
             text-decoration: none;
         }
+    }
+
+    >button {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        height: 23px;
+        width: 25px;
+        background-image: url(../img/Search.png);
+        background-repeat: no-repeat;
+        background-position: right top;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+
+        >form>input {
+            visibility: hidden;
+            width: 160px;
+            height: 23px;
+            font-size: 19px;
+        }
+    }
+
+    >button:focus + input{
+        width: 180px;
     }
 }
 

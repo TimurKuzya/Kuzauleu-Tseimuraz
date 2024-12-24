@@ -105,6 +105,32 @@ header {
     .menu_p nav a {
       color: black;
       text-decoration: none; }
+  .menu_p > button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 23px;
+    width: 25px;
+    background-image: url(../img/Search.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .menu_p > button > form > input {
+      visibility: hidden;
+      width: 160px;
+      height: 23px;
+      font-size: 19px; }
+  .menu_p > button:focus + input {
+    width: 180px; }
 
 .logo {
   display: -webkit-box;

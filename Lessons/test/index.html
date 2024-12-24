@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/fontawesome.css">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    form {
+        width: auto;
+        float: right;
+        
+    }
+
+    input {
+        display: none;
+        width: 250px;
+        height: 42px;
+        padding-left: 15px;
+        border-radius: 42px;
+        border: 2px solid #324b4e;
+        background: #F9F0DA;
+        outline: none;
+        position: relative;
+        transition: .3s linear;
+    }
+
+    input:focus {
+        display: block;
+        width: 300px;
+    }
+
+    button:focus {
+        width: 42px;
+        height: 42px;
+        background: none;
+        border: none;
+        position: absolute;
+        top: 0px;
+        right: 0;
+    }
+
+    button:before {
+        content: fa-search;
+        font-family: FontAwesome;
+        color: #324b4e;
+    }
+</style>
+
+<body>
+
+    <div>
+        <form id="search_form" action="/search" method="get">
+            <input id="search-input" class="header-search-block__search" name="q" value="" type="search"
+                placeholder="Поиск">
+            <button type="button" class="header-search-submit"><img src="Search.png" alt="Search"></button>
+        </form>
+    </div>
+</body>
+
+</html>
