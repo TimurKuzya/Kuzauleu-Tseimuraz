@@ -1,7 +1,25 @@
-@media only screen and (max-width: 1270px)
-{
-    .menu
-    {
+@media only screen and (max-width: 1270px) {
+    .menu {
         flex-direction: column;
     }
+
+    .menu_p {
+        justify-content: center;
+    }
+
+    .menu_p nav {
+        justify-content: space-around;
+    }
 }
+@media only screen and (max-width: 820px) {
+    .menu_p {
+        flex-direction: column;
+        gap: 8px;
+    }
+}
+@media only screen and (max-width: 580px) {
+    .menu_p nav {
+        justify-content: center;
+    }
+}
+
