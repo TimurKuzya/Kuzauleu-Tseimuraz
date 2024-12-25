@@ -1,12 +1,18 @@
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1260px) {
     .work {
         width: 358px;
     }
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1260px) {
     .container {
         justify-content: space-evenly;
+    }
+
+    .sub_content {
+        width: 37vw;
+        height: 36vw;
+        gap: 2vw;
     }
 
     .menu {
@@ -25,10 +31,81 @@
         width: 62%;
     }
 
+    .block_1 {
+        position: absolute;
+        margin-top: 0;
+        top: 138px;
+    }
+
     .block_2 {
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
+        margin-top: 59vw;
+    }
+
+    .content {
+        margin-left: 3vw;
+        gap: 3.2vw;
+        height: 59vw;
+    }
+
+    .about_us>img {
+        position: relative;
+        width: 54vw;
+        justify-content: center;
+    }
+
+    .text1_b3 {
+        font-size: 3.9vw;
+        line-height: 4.6vw;
+    }
+
+    .text2_b3 {
+        font-size: 2.4vw;
+        line-height: 3.4vw;
+    }
+
+    .button_b3 {
+        height: 17vw;
+        gap: 3vw;
+    }
+
+    .call {
+        gap: 3vw;
+        width: 23vw;
+
+        >div {
+            display: flex;
+            width: 18vw;
+            flex-direction: column;
+        }
+    }
+
+    .call_num {
+        font-size: 2vw;
+        line-height: 5vw;
+    }
+
+    .call_text {
+        width: 12vw;
+        font-size: 1.7vw;
+        line-height: 2vw;
+    }
+
+    .block_4 {
+        width: 100%;
+        height: auto;
+        padding: 75px 0;
+
+        >div {
+            height: 1100px;
+        }
+    }
+
+    .Testimonial {
+        flex-direction: column;
+        align-items: center;
     }
 }
 

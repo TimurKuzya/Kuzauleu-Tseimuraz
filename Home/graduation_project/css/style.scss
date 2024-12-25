@@ -70,21 +70,21 @@ header {
         }
     }
 
-    >button {
+    form {
         display: flex;
         height: 34px;
         background-image: url(../img/Search.png);
         background-repeat: no-repeat;
         background-position: 4px center;
         flex-direction: row;
-        justify-content: flex-end;
+        // justify-content: flex-end;
         align-items: center;
         border: 1px solid darkgray;
         border-radius: 17px;
         margin-left: 20px;
         overflow: hidden;
 
-        >form>input {
+        >input {
             width: 32px;
             height: 32px;
             font-size: 19px;
@@ -93,10 +93,11 @@ header {
     }
 }
 
-.menu_p>button>form>input:focus {
-    width: 120px;
-    margin: 3px 0px 3px 35px;
-    padding-right: 16px;
+.menu_p>form>input:focus {
+    display: block;
+    width: 180px;
+    margin: 3px 0px 3px 34px;
+    padding-right: 12px;
 }
 
 
@@ -260,7 +261,7 @@ header {
     display: flex;
     width: 1200px;
     height: 700px;
-    gap: 75px;
+    // gap: 75px;
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
@@ -268,7 +269,7 @@ header {
 
 .content {
     display: flex;
-    width: 472px;
+    // width: 472px;
     height: 614px;
     gap: 45px;
     flex-direction: column;
@@ -369,7 +370,7 @@ header {
 
     >div {
         display: flex;
-        width: 1150px;
+        // width: 1150px;
         height: 503px;
         gap: 38px;
         flex-direction: column;
@@ -389,7 +390,7 @@ header {
 
 .Testimonial {
     display: flex;
-    width: 1150px;
+    // width: 1150px;
     height: 339px;
     gap: 20px;
 

@@ -92,7 +92,7 @@ header {
     .menu_p nav a {
       color: black;
       text-decoration: none; }
-  .menu_p > button {
+  .menu_p form {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -104,9 +104,6 @@ header {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -114,17 +111,18 @@ header {
     border-radius: 17px;
     margin-left: 20px;
     overflow: hidden; }
-    .menu_p > button > form > input {
+    .menu_p form > input {
       width: 32px;
       height: 32px;
       font-size: 19px;
       -webkit-transition: width 1.5s;
       transition: width 1.5s; }
 
-.menu_p > button > form > input:focus {
-  width: 120px;
-  margin: 3px 0px 3px 35px;
-  padding-right: 16px; }
+.menu_p > form > input:focus {
+  display: block;
+  width: 180px;
+  margin: 3px 0px 3px 34px;
+  padding-right: 12px; }
 
 .logo {
   display: -webkit-box;
@@ -345,7 +343,6 @@ header {
   display: flex;
   width: 1200px;
   height: 700px;
-  gap: 75px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -361,7 +358,6 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 472px;
   height: 614px;
   gap: 45px;
   -webkit-box-orient: vertical;
@@ -485,7 +481,6 @@ header {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    width: 1150px;
     height: 503px;
     gap: 38px;
     -webkit-box-orient: vertical;
@@ -509,7 +504,6 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 1150px;
   height: 339px;
   gap: 20px; }
   .Testimonial > div {
