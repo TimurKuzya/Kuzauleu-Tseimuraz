@@ -23,7 +23,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    padding-top: 7.7vw;
+    padding-top: 7.3vw;
 }
 
 
@@ -99,7 +99,6 @@ header {
     margin: 3px 0px 3px 34px;
     padding-right: 12px;
 }
-
 
 .logo {
     display: flex;
@@ -974,13 +973,347 @@ footer {
     }
 }
 
+/* About Us */
 .about_block_1 {
+    display: flex;
     background: url(../img/Background_ab.png);
     background-repeat: no-repeat;
     background-size: contain;
-    display: flex;
     width: 100%;
     height: 18.54vw;
-    margin-top: 2.5vw;
+    // margin-top: 2.5vw;
     justify-content: center;
+    align-items: flex-end;
+}
+
+.about_b1_1 {
+    display: flex;
+    width: 503px;
+    height: 178px;
+    background: rgba(255, 255, 255, 1);
+    gap: 10px;
+    border-radius: 37px 37px 0px 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.about_b1_intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    >p:nth-of-type(1) {
+        font-size: 50px;
+        font-weight: 400;
+        line-height: 62.5px;
+        text-align: left;
+    }
+
+    >p:nth-of-type(2) {
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 33px;
+        letter-spacing: 0.01em;
+        text-align: left;
+    }
+}
+
+.about_block_2 {
+    margin-top: 10.42vw;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about_b2_quotes_1 {
+    display: flex;
+    width: 875px;
+    height: 428px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about_b2_quotes_2 {
+    position: absolute;
+    display: flex;
+    width: 875px;
+    height: 428px;
+    align-items: center;
+    justify-content: center;
+}
+
+.about_b2_quotes_patternL {
+    width: 188.5px;
+    height: 428px;
+    border-radius: 70px 0px 0px 70px;
+    border-top: 25px solid rgba(244, 240, 236, 1);
+    border-bottom: 25px solid rgba(244, 240, 236, 1);
+    border-left: 25px solid rgba(244, 240, 236, 1);
+}
+
+.about_b2_quotes_patternR {
+    width: 188.5px;
+    height: 428px;
+    border-radius: 0px 70px 70px 0px;
+    border-top: 25px solid rgba(244, 240, 236, 1);
+    border-bottom: 25px solid rgba(244, 240, 236, 1);
+    border-right: 25px solid rgba(244, 240, 236, 1);
+}
+
+.about_b2_quotes_text {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 751px;
+    height: 294.25px;
+    // gap: 27px;
+
+    >p {
+        font-size: 85px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: 106.25px;
+        letter-spacing: 0.02em;
+        text-align: center;
+    }
+}
+
+.about_b2_quotes_text_comment {
+    display: flex;
+    flex-direction: column;
+    height: 205.25px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+
+    >p:nth-of-type(1) {
+        font-size: 35px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: 43.75px;
+        letter-spacing: 0.02em;
+        text-align: center;
+    }
+
+    >p:nth-of-type(2) {
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 37.5px;
+        letter-spacing: 0.01em;
+        text-align: center;
+    }
+}
+
+.about_b2_WhatWeDo {
+    display: flex;
+    width: 1200px;
+    height: 377px;
+    gap: 41px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.about_b2_content,
+.about_b2_Res_content {
+    display: flex;
+    width: 500px;
+    height: 334px;
+    flex-direction: column;
+    gap: 41px;
+}
+
+.about_b2_img,
+.about_b2_Res_img {
+    display: flex;
+    width: 659px;
+    height: 377px;
+    background-image: url(../img/Photo_Ab.jpg);
+    background-repeat: no-repeat;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 70px;
+}
+
+.about_b2_button {
+    color: white;
+    display: flex;
+    width: 220.14px;
+    height: 75px;
+    padding: 26px 31px 26px 31px;
+    gap: 10px;
+    border-radius: 18px;
+    background: #292f36;
+    box-shadow: 10px 10px 9px 0px rgba(192, 192, 192, 0.35);
+
+    >div {
+        display: flex;
+        width: 176.14px;
+        height: 23px;
+        gap: 10px;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 22.5px;
+        letter-spacing: 0.02em;
+        text-align: center;
+    }
+}
+
+.about_b2_Result {
+    display: flex;
+    width: 1200px;
+    height: 377px;
+    gap: 41px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about_b2_Res_img {
+    background-image: url(../img/Image_Ab.png);
+}
+
+.about_b2_Res_content {
+    width: 452px;
+}
+
+.about_b2_sub_content {
+    display: flex;
+    width: 452px;
+    height: 218px;
+    gap: 23px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.about_b2_Team {
+    display: flex;
+    width: 100%;
+    height: 968px;
+    background: rgba(244, 240, 236, 1);
+    justify-content: center;
+    align-items: center;
+}
+
+.about_b2_Team_content {
+    display: flex;
+    width: 1200.19px;
+    height: 599px;
+    gap: 40px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about_b2_Team_content_Heading {
+    width: 547px;
+    height: 126px;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 62.5px;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.about_b2_Team_content_Images {
+    display: flex;
+    width: 100%;
+    height: 433px;
+    justify-content: space-between;
+
+    >div {
+        width: 283.55px;
+        height: 433px;
+        border-radius: 30px;
+        background-image: url(../img/Photo_Ab1.png);
+        background-repeat: no-repeat;
+        background-position: -175.04px;
+        background-size: 679.7px;
+    }
+
+    >div:nth-of-type(2) {
+        background-image: url(../img/Photo_Ab2.jpeg);
+        background-position: -472.21px -25.59px;
+        background-size: 788.20px;
+    }
+
+    >div:nth-of-type(3) {
+        display: flex;
+        width: 283.55px;
+        border-radius: 30px;
+        background-image: none;
+        background-color: white;
+        align-items: center;
+        justify-content: center;
+    }
+
+    >div:nth-of-type(4) {
+        background-image: url(../img/Photo_Ab3.png);
+        background-position: -214px -102.36px;
+        background-size: 583.48px;
+    }
+}
+
+.about_b2_Team_content_Details {
+    display: flex;
+    flex-direction: column;
+    width: 277.25px;
+    height: 292.47px;
+    align-items: center;
+    justify-content: space-between;
+
+    >div:nth-of-type(1) {
+        width: 227.25px;
+        height: 63.47px;
+
+        >p:nth-of-type(1) {
+            font-size: 25px;
+            font-weight: 400;
+            line-height: 37.5px;
+            letter-spacing: 0.01em;
+            text-align: center;
+        }
+
+        >p:nth-of-type(2) {
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 27px;
+            letter-spacing: 0.01em;
+            text-align: center;
+        }
+
+    }
+
+    >div:nth-of-type(2) {
+        display: flex;
+        width: 147.4px;
+        height: 21.99px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    >div:nth-of-type(3) {
+        display: flex;
+        width: 222.27px;
+        height: 75.47px;
+        align-items: center;
+        justify-content: center;
+
+        >p:nth-of-type(1) {
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 27px;
+            letter-spacing: 0.01em;
+            text-align: center;
+        }
+    }
+}
+
+.about_b2_Mail {
+    display: flex;
+    width: 796px;
+    height: 632px;
+    gap: 77px;
 }

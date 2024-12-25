@@ -107,6 +107,20 @@
         flex-direction: column;
         align-items: center;
     }
+    .about_b2_WhatWeDo {
+        width: 62.5vw;
+    }
+    .about_b2_Result {
+        width: 62.5vw;
+        height: 377px;
+        gap: 41px;
+    }
+    .about_b2_Team_content {
+        width: 62.5vw;
+        height:599px;
+        gap: 40px;
+    }
+    
 }
 
 @media only screen and (max-width: 900px) {
