@@ -156,7 +156,6 @@ header {
   display: flex;
   width: 100%;
   height: 54vw;
-  margin-top: 2.5vw;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
@@ -295,41 +294,6 @@ header {
       letter-spacing: 0.01em;
       text-align: center;
       text-decoration-skip-ink: none; }
-
-.button_b2_1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 120.14px;
-  height: 23px;
-  gap: 12px;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  border: none;
-  background: none; }
-  .button_b2_1 > div {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 22.5px;
-    letter-spacing: 0.02em;
-    text-align: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center; }
 
 .block_3 {
   display: -webkit-box;
@@ -1168,7 +1132,8 @@ footer {
     font-weight: 400;
     line-height: 31.25px;
     text-align: left; }
-  .pages_map > p:nth-of-type(2), .pages_map > a,
+  .pages_map > p:nth-of-type(2),
+  .pages_map > a,
   .services_map > p:nth-of-type(2),
   .services_map > a {
     font-family: 'Jost';
@@ -1723,5 +1688,104 @@ a {
 
 .services {
   background: url(../img/Photo_Serv.jpg); }
+
+.services_head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 4375px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.services_head_block1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1158px;
+  height: 704px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.services_head_block1_1row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 225px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.card_mini {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 358px;
+  height: 225px;
+  gap: 52px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .card_mini > div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 150px;
+    gap: 20px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    .card_mini > div > p:nth-of-type(1) {
+      font-size: 25px;
+      font-weight: 400;
+      line-height: 31.25px;
+      text-align: center;
+      color: #292F36; }
+    .card_mini > div > p:nth-of-type(2) {
+      font-size: 22px;
+      font-weight: 400;
+      line-height: 33px;
+      letter-spacing: 0.01em;
+      text-align: center;
+      color: #4D5053; }
+
+.button_read_more {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 120.14px;
+  height: 23px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .button_read_more > a {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22.5px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #4D5053; }
 
 /*# sourceMappingURL=style.css.map */
