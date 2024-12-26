@@ -10,7 +10,8 @@
 .font_Jost {
   font-family: 'Jost'; }
 
-.container {
+.container,
+.about_container {
   height: 8183px;
   width: 100%;
   background: url(../img/Line.png);
@@ -24,13 +25,16 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   padding-top: 7.3vw; }
+
+.about_container {
+  height: 4971px; }
 
 header {
   z-index: 10;
@@ -1257,7 +1261,6 @@ footer {
     text-align: left; }
 
 .about_block_2 {
-  margin-top: 10.42vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1266,6 +1269,7 @@ footer {
       -ms-flex-direction: column;
           flex-direction: column;
   width: 100%;
+  height: 3518px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -1428,7 +1432,10 @@ footer {
   border-radius: 18px;
   background: #292f36;
   -webkit-box-shadow: 10px 10px 9px 0px rgba(192, 192, 192, 0.35);
-          box-shadow: 10px 10px 9px 0px rgba(192, 192, 192, 0.35); }
+          box-shadow: 10px 10px 9px 0px rgba(192, 192, 192, 0.35);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
   .about_b2_button > div {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1440,7 +1447,22 @@ footer {
     font-weight: 600;
     line-height: 22.5px;
     letter-spacing: 0.02em;
-    text-align: center; }
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .about_b2_button .about_b2_button_mail {
+    width: 112.14px;
+    gap: 9px; }
+    .about_b2_button .about_b2_button_mail > p {
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 22.5px;
+      letter-spacing: 0.02em;
+      text-align: center; }
 
 .about_b2_Result {
   display: -webkit-box;
@@ -1623,6 +1645,72 @@ footer {
   display: flex;
   width: 796px;
   height: 632px;
-  gap: 77px; }
+  gap: 77px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  .about_b2_Mail > div:nth-of-type(1) {
+    width: 634px;
+    height: 126px; }
+    .about_b2_Mail > div:nth-of-type(1) > p {
+      font-size: 50px;
+      font-weight: 400;
+      line-height: 62.5px;
+      letter-spacing: 0.02em;
+      text-align: center; }
+  .about_b2_Mail > form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    height: 277px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+    .about_b2_Mail > form > div:nth-of-type(1) {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      width: 100%;
+      height: 45px;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between; }
+      .about_b2_Mail > form > div:nth-of-type(1) > div > input {
+        width: 378px;
+        height: 45px;
+        border-bottom: 1px solid black;
+        color: #4D5053;
+        font-family: 'Jost';
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 33px;
+        letter-spacing: 0.01em;
+        text-align: left; }
+    .about_b2_Mail > form > div:nth-of-type(2) {
+      width: 100%;
+      height: 175px; }
+      .about_b2_Mail > form > div:nth-of-type(2) > textarea {
+        width: 100%;
+        height: 175px;
+        color: #4D5053;
+        font-family: Jost;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 33px;
+        letter-spacing: 0.01em;
+        text-align: left;
+        border-bottom: 1px solid black; }
 
 /*# sourceMappingURL=style.css.map */
