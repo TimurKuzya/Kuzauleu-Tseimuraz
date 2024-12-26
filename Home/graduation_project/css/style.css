@@ -1457,7 +1457,7 @@ footer {
   .about_b2_button .about_b2_button_mail {
     width: 112.14px;
     gap: 9px; }
-    .about_b2_button .about_b2_button_mail > p {
+    .about_b2_button .about_b2_button_mail > input {
       font-size: 18px;
       font-weight: 600;
       line-height: 22.5px;
@@ -1674,10 +1674,13 @@ footer {
         -ms-flex-direction: column;
             flex-direction: column;
     width: 100%;
-    height: 277px;
+    height: 429px;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
-            justify-content: space-between; }
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
     .about_b2_Mail > form > div:nth-of-type(1) {
       display: -webkit-box;
       display: -ms-flexbox;
