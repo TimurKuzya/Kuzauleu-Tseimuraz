@@ -12,7 +12,8 @@
 
 .container,
 .about_container,
-.services_container {
+.services_container,
+.contact_us_container {
   height: 8183px;
   width: 100%;
   background: url(../img/Line.png);
@@ -39,6 +40,9 @@
 
 .services_container {
   height: 5691px; }
+
+.contact_us_container {
+  height: 2879px; }
 
 header {
   z-index: 10;
@@ -1975,5 +1979,14 @@ a {
       line-height: 22.5px;
       letter-spacing: 0.02em;
       text-align: center; }
+
+.contact_us {
+  background: url(../img/Photo_Contact.jpg); }
+
+.sitymap {
+  width: 1200px;
+  height: 501px;
+  background: #292F36;
+  border-radius: 70px; }
 
 /*# sourceMappingURL=style.css.map */
