@@ -1168,14 +1168,19 @@ footer {
     font-weight: 400;
     line-height: 31.25px;
     text-align: left; }
-  .pages_map > p:nth-of-type(2),
-  .services_map > p:nth-of-type(2) {
+  .pages_map > p:nth-of-type(2), .pages_map > a,
+  .services_map > p:nth-of-type(2),
+  .services_map > a {
     font-family: 'Jost';
     font-size: 22px;
     font-weight: 400;
     line-height: 66px;
     letter-spacing: 0.01em;
     text-align: left; }
+
+a {
+  color: black;
+  text-decoration: none; }
 
 .services_map {
   width: 120px; }
