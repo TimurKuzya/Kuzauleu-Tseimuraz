@@ -11,7 +11,8 @@
   font-family: 'Jost'; }
 
 .container,
-.about_container {
+.about_container,
+.services_container {
   height: 8183px;
   width: 100%;
   background: url(../img/Line.png);
@@ -35,6 +36,9 @@
 
 .about_container {
   height: 4971px; }
+
+.services_container {
+  height: 5691px; }
 
 header {
   z-index: 10;
@@ -1702,9 +1706,8 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between; }
+  -ms-flex-pack: distribute;
+      justify-content: space-around; }
 
 .services_head_block1 {
   display: -webkit-box;
@@ -1728,7 +1731,23 @@ a {
   height: 225px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between; }
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.services_head_block1_2row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 391px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
 
 .card_mini {
   display: -webkit-box;
@@ -1786,6 +1805,174 @@ a {
     line-height: 22.5px;
     letter-spacing: 0.02em;
     text-align: center;
+    color: #4D5053; }
+
+.card_mini_back {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 398px;
+  height: 391px;
+  gap: 10px;
+  border-radius: 30px;
+  background: #F4F0EC;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.services_head_block2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1199px;
+  height: 2718.42px;
+  gap: 10px;
+  border-radius: 70px;
+  background: #F4F0EC;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.services_head_block3 {
+  width: 1199px;
+  height: 374px;
+  gap: 10px;
+  border-radius: 70px;
+  background: #292F36; }
+
+.services_head_block2_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 967px;
+  height: 2398.42px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.services_head_block2_content_head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 802px;
+  height: 146px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  .services_head_block2_content_head > p:nth-of-type(1) {
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 62.5px;
+    text-align: center;
+    color: #363B41; }
+  .services_head_block2_content_head > p:nth-of-type(2) {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #4D5053; }
+
+.services_head_block2_content_works {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 2152.42px;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  .services_head_block2_content_works > div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 485.6px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+
+.services_head_block2_content_works_text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 456px;
+  height: 314px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  .services_head_block2_content_works_text > div:nth-of-type(1) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+  .services_head_block2_content_works_text > div:nth-of-type(2) {
+    height: 154px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+  .services_head_block2_content_works_text > div:nth-of-type(1) > p {
+    font-family: 'DM Serif Display';
+    font-size: 120px;
+    font-weight: 400;
+    line-height: 150px;
+    text-align: center;
+    color: white; }
+  .services_head_block2_content_works_text > div:nth-of-type(2) > p:nth-of-type(1) {
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 43.75px;
+    text-align: left;
+    color: #292F36; }
+  .services_head_block2_content_works_text > div:nth-of-type(2) > p:nth-of-type(2) {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.01em;
+    text-align: left;
     color: #4D5053; }
 
 /*# sourceMappingURL=style.css.map */
