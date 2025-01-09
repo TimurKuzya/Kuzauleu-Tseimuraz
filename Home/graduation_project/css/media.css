@@ -135,11 +135,9 @@
         height: 51.5vw;
     }
 
+    
+
 }
-
-@media only screen and (max-width: 1130px) {
-
-}        
 
 @media only screen and (max-width: 900px) {
     .menu_p {
