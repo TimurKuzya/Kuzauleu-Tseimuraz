@@ -57,7 +57,8 @@ header {
 }
 
 .menu {
-  width: 1200px;
+  max-width: 1200px;
+  width: 96%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -133,7 +134,8 @@ header {
 }
 
 .bl_1_small {
-  width: 1200px;
+  max-width: 1200px;
+  width: 96%;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -239,7 +241,8 @@ header {
 
 .about_us {
   display: flex;
-  width: 1200px;
+  max-width: 1200px;
+  width: 96%;
   height: 700px;
   justify-content: space-between;
   align-items: center;
@@ -433,7 +436,8 @@ header {
 .Project {
   display: flex;
   flex-direction: column;
-  width: 1201px;
+  max-width: 1201px;
+  width: 96%;
   height: 1541px;
   gap: 93px;
   align-items: center;
@@ -583,7 +587,8 @@ header {
 
 .block_8 {
   display: flex;
-  width: 1200px;
+  max-width: 1200px;
+  width: 98%;
   height: 714px;
   gap: 52px;
   flex-direction: column;
@@ -729,7 +734,8 @@ header {
 
 .block_9 {
   display: flex;
-  width: 1199px;
+  max-width: 1199px;
+  width: 100%;
   height: 374px;
   gap: 10px;
   border-radius: 70px;
@@ -780,7 +786,8 @@ footer {
 .map {
   display: flex;
   flex-direction: row;
-  width: 1199px;
+  max-width: 1199px;
+  width: 96%;
   height: 370px;
   justify-content: space-between;
   align-items: flex-start;

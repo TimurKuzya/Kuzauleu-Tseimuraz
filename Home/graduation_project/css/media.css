@@ -1,10 +1,10 @@
-@media only screen and (min-width: 1250px) {
+@media only screen and (min-width: 1220px) {
     .work {
         width: 358px;
     }
 }
 
-@media only screen and (max-width: 1250px) {
+@media only screen and (max-width: 1220px) {
     .container {
         justify-content: space-evenly;
     }
@@ -95,6 +95,7 @@
 
     .block_4 {
         width: 100%;
+        max-width: 1200px;
         height: auto;
         padding: 75px 0;
 
@@ -124,11 +125,6 @@
         gap: 40px;
     }
 
-    .map,
-    .Project {
-        width: 98%;
-    }
-
     .Client_Logo {
         width: 96%;
         justify-content: space-around;
@@ -140,6 +136,10 @@
     }
 
 }
+
+@media only screen and (max-width: 1130px) {
+
+}        
 
 @media only screen and (max-width: 900px) {
     .menu_p {
