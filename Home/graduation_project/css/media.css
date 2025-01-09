@@ -7,6 +7,7 @@
 @media only screen and (max-width: 1220px) {
     .container {
         justify-content: space-evenly;
+        gap: 12.5vw;
     }
 
     .sub_content {
@@ -135,7 +136,7 @@
         height: 51.5vw;
     }
 
-    
+
 
 }
 
