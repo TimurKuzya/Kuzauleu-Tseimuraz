@@ -33,7 +33,6 @@
     }
 
     .block_1 {
-        position: absolute;
         margin-top: 0;
         top: 138px;
     }
@@ -42,7 +41,6 @@
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
-        margin-top: 59vw;
     }
 
     .content {
@@ -136,7 +134,11 @@
         height: 51.5vw;
     }
 
-
+    .Blog_b8 {
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
 
 }
 
