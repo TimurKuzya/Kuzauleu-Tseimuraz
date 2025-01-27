@@ -1,0 +1,6 @@
+[07-Feb-2020 15:05:36 Europe/Minsk] PHP Notice:  Undefined variable: mess in /hosting2/sdserviceby/public_html/form.php on line 3
+[07-Feb-2020 15:05:36 Europe/Minsk] PHP Notice:  Undefined index: email in /hosting2/sdserviceby/public_html/form.php on line 4
+[07-Feb-2020 15:05:36 Europe/Minsk] PHP Notice:  Undefined index: year in /hosting2/sdserviceby/public_html/form.php on line 6
+[07-Feb-2020 15:05:36 Europe/Minsk] PHP Notice:  Undefined index: modcar in /hosting2/sdserviceby/public_html/form.php on line 8
+[07-Feb-2020 15:05:36 Europe/Minsk] PHP Notice:  Undefined index: code in /hosting2/sdserviceby/public_html/form.php on line 10
+[07-Feb-2020 15:05:36 Europe/Minsk] PHP Notice:  Undefined index: username in /hosting2/sdserviceby/public_html/form.php on line 11

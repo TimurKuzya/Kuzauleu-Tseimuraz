@@ -1,0 +1,6 @@
+User-Agent: clickfrogbot
+Allow: /
+User-agent: *
+Disallow: /ajax.php
+Host: xn--h1aeefu.xn----8sbgaotbxsexkeh.xn--90ais
+Sitemap: http://xn--h1aeefu.xn----8sbgaotbxsexkeh.xn--90ais/sitemap.xml

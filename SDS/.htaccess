@@ -1,0 +1,29 @@
+# убираем расширение php в адресе
+RewriteEngine On
+RewriteRule ^index.php$ / [QSA,R]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^.*$ $0.php [L,QSA]
+RewriteCond %{THE_REQUEST} ([^\s]*)\.php(\?[^\s]*)?
+RewriteRule (.*) %1 [R=301,L]
+RewriteCond %{HTTP_HOST} ^www.sdservice.by
+RewriteRule (.*) http://sdservice.by/$1 [R=301,L]
+
+RewriteCond %{HTTPS} !=on
+RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+
+# сжатие text, html, javascript, css, xml:
+<ifModule mod_deflate.c>
+AddOutputFilterByType DEFLATE text/html text/plain text/xml application/xml application/xhtml+xml text/css text/javascript application/javascript application/x-javascript
+</ifModule>
+
+# One month cache
+<filesMatch ".(css|js|jpg|jpeg|png|gif|ico|woff)$">
+Header set Cache-Control "max-age=2628000, public"
+</filesMatch>
+
+<IfModule mod_setenvif.c>
+  BrowserMatch "MSIE" force-no-vary
+  BrowserMatch "Mozilla/4.[0-9]{2}" force-no-vary
+</IfModule>

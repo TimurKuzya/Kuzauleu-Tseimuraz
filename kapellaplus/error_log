@@ -1,0 +1,1 @@
+[19-Oct-2017 03:05:24 Europe/Minsk] PHP Warning:  fsockopen() [<a href='function.fsockopen'>function.fsockopen</a>]: unable to connect to stat.clickfrog.ru:80 (Connection timed out) in /home/a3drakla/мой-автосервис.бел/regions/минск/clickfrogru_tcp.php on line 62

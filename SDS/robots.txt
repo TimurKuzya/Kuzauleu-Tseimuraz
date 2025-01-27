@@ -1,0 +1,6 @@
+User-Agent: clickfrogbot
+Allow: /
+User-agent: *
+Disallow: /ajax.html
+Host: sdservice.by
+Sitemap: https://sdservice.by/sitemap.xml
