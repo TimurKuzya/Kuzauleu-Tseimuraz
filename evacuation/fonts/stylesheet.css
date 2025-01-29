@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Exo 2';
+    src: url('Exo2-Regular.woff2') format('woff2'),
+        url('Exo2-Regular.woff') format('woff'),
+        url('Exo2-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
