@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
+
+.font_Rubik {
+  font-family: "Rubik Glitch", serif;
+}
+
+.font_Exo {
+  font-family: "Exo 2", serif;
+}
+
 header {
   z-index: 10;
   display: flex;
@@ -33,7 +44,6 @@ header {
 }
 
 .menu_p nav {
-  font-family: "Exo 2";
   color: black;
   display: flex;
   width: 100%;
@@ -47,7 +57,7 @@ header {
   color: #0b3c62;
   text-decoration: none;
   font-size: 30px;
-  font-weight: bold;
+  font-weight: 800;
 }
 
 .menu_p nav a:hover {
@@ -89,10 +99,21 @@ header {
 }
 
 .frame_1 {
+  display: flex;
+  margin: 0 auto;
   width: 100%;
+  max-width: 1250px;
   height: 82vh;
   background-image: url(../images/piclumen-1738071022452.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: bottom;
+}
+
+h1 {
+  font-family: "Rubik Glitch", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  color: #0b3c62;
 }
