@@ -25,6 +25,14 @@ header {
   align-items: center;
 }
 
+footer {
+  height: 150px;
+  position: static;
+  width: 100%;
+  bottom: 0;
+  background-color: antiquewhite;
+}
+
 .menu {
   display: flex;
   width: 90%;
@@ -108,12 +116,15 @@ header {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: bottom;
+  text-align: center;
+  justify-content: center;
 }
 
 h1 {
   font-family: "Rubik Glitch", serif;
   font-weight: 400;
-  font-style: normal;
-  font-size: 30px;
-  color: #0b3c62;
+  font-style: italic;
+  font-size: 45px;
+  color: #db1940;
+  text-shadow: 1px 1px #732372, 1px -1px #732372, -1px 1px #732372, -1px -1px #732372, 3px 3px 6px rgba(0,0,0,.5);
 }
