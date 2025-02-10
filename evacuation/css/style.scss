@@ -9,6 +9,10 @@
   font-family: "Exo 2", serif;
 }
 
+.font_Slipstream {
+  font-family: 'Slipstream';
+}
+
 header {
   z-index: 10;
   display: flex;
@@ -20,17 +24,20 @@ header {
   left: 0;
   // background: linear-gradient(#314555, #bdd6e500);
   // -webkit-backdrop-filter: blur(8px);
-  backdrop-filter: blur(8px);
+  // backdrop-filter: blur(8px);
   justify-content: center;
   align-items: center;
+  background-color: #9ba7bb6e;
+  backdrop-filter: blur(8px);
 }
 
 footer {
   height: 150px;
-  position: static;
+  position: fixed;
   width: 100%;
   bottom: 0;
-  background-color: antiquewhite;
+  background-color: #9ba7bb6e;
+  backdrop-filter: blur(8px);
 }
 
 .menu {
@@ -121,7 +128,7 @@ footer {
 }
 
 h1 {
-  font-family: "Rubik Glitch", serif;
+  font-family: 'Blazma';
   font-weight: 400;
   font-style: italic;
   font-size: 45px;
