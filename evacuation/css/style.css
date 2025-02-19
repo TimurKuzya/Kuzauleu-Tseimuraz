@@ -18,6 +18,7 @@ header {
   height: 138px;
   max-height: 18vh;
   width: 100%;
+  position: fixed;
   top: 0;
   left: 0;
   justify-content: center;
@@ -109,15 +110,15 @@ footer {
   max-width: 290px;
 }
 
-.frame_1 {
+.frame_head {
   display: flex;
   margin: 0 auto;
   width: 100%;
-  max-width: 1250px;
-  height: 82vh;
-  background-image: url(../images/piclumen-1738071022452.png);
+  /* max-width: 1250px; */
+  height: 100vh;
+  background-image: url(../images/piclumen-406.png);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: bottom;
   text-align: center;
   justify-content: center;

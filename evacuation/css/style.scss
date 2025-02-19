@@ -19,7 +19,7 @@ header {
   height: 138px;
   max-height: 18vh;
   width: 100%;
-  // position: fixed;
+  position: fixed;
   top: 0;
   left: 0;
   // background: linear-gradient(#314555, #bdd6e500);
@@ -113,18 +113,28 @@ footer {
   max-width: 290px;
 }
 
-.frame_1 {
+.frame_head {
   display: flex;
   margin: 0 auto;
   width: 100%;
-  max-width: 1250px;
-  height: 82vh;
-  background-image: url(../images/piclumen-1738071022452.png);
+  /* max-width: 1250px; */
+  height: 100vh;
+  background-image: url(../images/piclumen-406.png);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: bottom;
   text-align: center;
   justify-content: center;
+}
+
+.frame_1 {
+  
+}
+
+.frame_1_1 {
+  div{
+
+  }
 }
 
 h1 {
@@ -133,5 +143,5 @@ h1 {
   font-style: italic;
   font-size: 45px;
   color: #db1940;
-  text-shadow: 1px 1px #732372, 1px -1px #732372, -1px 1px #732372, -1px -1px #732372, 3px 3px 6px rgba(0,0,0,.5);
+  text-shadow: 1px 1px #732372, 1px -1px #732372, -1px 1px #732372, -1px -1px #732372, 3px 3px 6px rgba(0, 0, 0, .5);
 }
