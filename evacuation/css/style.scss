@@ -139,9 +139,10 @@ footer {
 .inframe_1 {
   width: 520px;
   height: 220px;
-  color: rgb(199, 216, 231);
+  background-color: rgb(255 255 255 / 41%);
   border-radius: 25px;
   box-shadow: #0b3c62;
+  -webkit-backdrop-filter: blur(8px);
   backdrop-filter: blur(8px);
 
   div {}
