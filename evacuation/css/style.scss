@@ -125,17 +125,30 @@ footer {
   background-position: bottom;
   text-align: center;
   justify-content: center;
+  align-items: center;
 }
 
-.frame_1 {
-  
+.frame {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
-.frame_1_1 {
-  div{
+.inframe_1 {
+  width: 520px;
+  height: 220px;
+  color: rgb(199, 216, 231);
+  border-radius: 25px;
+  box-shadow: #0b3c62;
+  backdrop-filter: blur(8px);
 
-  }
+  div {}
 }
+
+.inframe_2 {}
+
 
 h1 {
   font-family: 'Blazma';
