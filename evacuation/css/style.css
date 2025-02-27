@@ -119,7 +119,7 @@ footer {
   background-image: url(../images/piclumen-406.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: bottom;
+  background-position: center;
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -149,4 +149,8 @@ h1 {
   font-size: 45px;
   color: #db1940;
   text-shadow: 1px 1px #732372, 1px -1px #732372, -1px 1px #732372, -1px -1px #732372, 3px 3px 6px rgba(0, 0, 0, 0.5);
+}
+
+.phone {
+  color: #db1940;
 }/*# sourceMappingURL=style.css.map */
