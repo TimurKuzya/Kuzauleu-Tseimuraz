@@ -15,8 +15,8 @@
 header {
   z-index: 10;
   display: flex;
-  height: 138px;
-  max-height: 18vh;
+  height: 100px;
+  max-height: 14vh;
   width: 100%;
   position: fixed;
   top: 0;
@@ -31,6 +31,7 @@ header {
 
 footer {
   height: 150px;
+  max-height: 13vh;
   position: fixed;
   width: 100%;
   bottom: 0;
@@ -43,7 +44,7 @@ footer {
   display: flex;
   width: 100%;
   max-width: 1200px;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   height: 90%;
 }
@@ -146,20 +147,30 @@ footer {
   flex-direction: column;
 }
 
-.inframe_1 {
+.card {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
+  gap: 10px;
   max-width: 330px;
   width: 30%;
   max-height: 100%;
   height: 500px;
   -webkit-backdrop-filter: blur(11px);
-  backdrop-filter: blur(6px);
-  background-color: rgba(255, 255, 255, 0.31);
+  backdrop-filter: blur(2px);
+  background-color: rgba(255, 255, 255, 0.34);
   border-radius: 30px;
   box-shadow: 0px 12px 17px 12px rgba(34, 60, 80, 0.67);
+  border: 3px solid rgba(255, 255, 255, 0.2901960784);
+}
+
+.card:hover {
+  color: orange;
+  box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white, 0 0 20px #ff4b00, 0 0 35px #ff4b00, 0 0 40px #ff4b00, 0 0 50px #ff4b00, 0 0 75px #ff4b00;
+  transform: translateY(-10px) scale(1.1);
+  z-index: 1;
+  border: 3px solid #ffffff;
 }
 
 h1 {
@@ -213,8 +224,7 @@ h1 {
   transition: all 0.3s ease-in-out 0s;
 }
 
-.wrap a:hover,
-.wrap a:focus {
+.wrap a:hover {
   transform: translateY(-6px);
 }
 
@@ -284,4 +294,51 @@ h1 {
 
 h2 {
   font-size: 60px;
+}
+
+.images {
+  overflow: hidden;
+  height: 45%;
+  width: 100%;
+  position: center;
+  border-radius: 30px 30px 0 0;
+}
+
+.cost {
+  font-family: sans-serif;
+  color: black;
+  font-size: 28px;
+}
+
+.typecar {
+  font-family: sans-serif;
+  color: #ffffff;
+  text-shadow: 2px 3px 3px rgb(0, 0, 0);
+}
+.typecar h2 {
+  font-size: 19px;
+  line-height: 1;
+}
+
+.description {
+  font-family: sans-serif;
+  color: black;
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: normal;
+  font-weight: 700;
+  text-align: justify;
+  text-shadow: 2px 1px 2px white;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  height: 45%;
+  line-height: normal;
+  font-weight: 700;
+  letter-spacing: 2px;
+  gap: 10px;
+  padding: 0 10px;
+  justify-content: flex-start;
 }/*# sourceMappingURL=style.css.map */
