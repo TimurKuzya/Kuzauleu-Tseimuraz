@@ -26,6 +26,7 @@ header {
   background-color: rgba(155, 167, 187, 0.431372549);
   -webkit-backdrop-filter: blur(8px);
   backdrop-filter: blur(8px);
+  box-shadow: 0px 12px 17px 12px rgba(34, 60, 80, 0.25);
 }
 
 footer {
@@ -40,7 +41,7 @@ footer {
 
 .menu {
   display: flex;
-  width: 90%;
+  width: 100%;
   max-width: 1200px;
   justify-content: space-between;
   align-items: center;
@@ -112,11 +113,18 @@ footer {
   max-width: 345px;
 }
 
-.frame_head {
+.call {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+}
+
+.container {
   display: flex;
   margin: 0 auto;
   width: 100%;
-  /* max-width: 1250px; */
   height: 100vh;
   background-image: url(../images/piclumen-406.png);
   background-repeat: no-repeat;
@@ -125,14 +133,17 @@ footer {
   text-align: center;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .frame {
   width: 100%;
-  height: 100vh;
+  max-width: 1200px;
+  height: 60vh;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
+  flex-direction: column;
 }
 
 .inframe_1 {
@@ -140,8 +151,15 @@ footer {
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
-  height: 100%;
-  min-width: 40vw;
+  max-width: 330px;
+  width: 30%;
+  max-height: 100%;
+  height: 500px;
+  -webkit-backdrop-filter: blur(11px);
+  backdrop-filter: blur(6px);
+  background-color: rgba(255, 255, 255, 0.31);
+  border-radius: 30px;
+  box-shadow: 0px 12px 17px 12px rgba(34, 60, 80, 0.67);
 }
 
 h1 {
@@ -166,6 +184,7 @@ h1 {
   display: inline-flex;
   font-family: "Nunito", sans-serif;
   font-size: 27px;
+  line-height: 160%;
   align-items: center;
   justify-content: center;
   text-transform: uppercase;
@@ -175,7 +194,7 @@ h1 {
   color: #f9541f;
   text-shadow: 1px 1px #732372, 1px -1px #732372, -1px 1px #732372, -1px -1px #732372, 3px 3px 6px rgba(0, 0, 0, 0.5);
   border: none;
-  transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3sease-in-out 0s;
   cursor: pointer;
   outline: none;
   position: relative;
@@ -239,4 +258,30 @@ h1 {
     opacity: 0;
     border: 75px solid #f09038;
   }
+}
+.inframe {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.inframe_h2 {
+  width: 100%;
+  text-align: center;
+}
+
+.inframe_box {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  gap: 30px;
+  height: 45vh;
+  align-items: flex-end;
+}
+
+h2 {
+  font-size: 60px;
 }/*# sourceMappingURL=style.css.map */
