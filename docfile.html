@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Rechnung Template</title>
+  <style>
+    body { font-family: Arial, Helvetica, sans-serif; font-size: 11pt; margin: 40px; }
+    h1 { text-align: center; margin: 10px 0; }
+    table { width: 100%; border-collapse: collapse; margin: 15px 0; }
+    th, td { border: 1px solid #888; padding: 6px 8px; vertical-align: top; }
+    th { background: #f4f4f4; text-align: left; }
+    .right { text-align: right; }
+    .center { text-align: center; }
+    .total { font-weight: bold; font-size: 12pt; background: #f8f8f8; }
+    .signature { margin-top: 60px; text-align: center; }
+    .small { font-size: 9pt; color: #555; }
+  </style>
+</head>
+<body>
+
+<div style="text-align: center; font-weight: bold; margin-bottom: 20px;">
+  Berger Transporte Inh. Vitalij Berger<br>
+  Wedeler Chaussee 2b • 25482 • Appen • Germany
+</div>
+
+<div style="display: flex; justify-content: space-between; margin-bottom: 20px;">
+  <div>Rechnungsdatum: [Invoice Date, e.g. 20.12.2024]</div>
+  <div>Leistungszeitraum: [Period, e.g. Dezember 2024]</div>
+</div>
+
+<div style="margin-bottom: 20px;">
+  <strong>Bill to:</strong><br>
+  [Bill To Company, e.g. OÜ "BOYAR"]<br>
+  [Address, e.g. 10117, Tallinn, Narva mnt. 7-634]<br>
+  Estonia<br>
+  Tax ID: [Tax ID, e.g. 12312443]
+</div>
+
+<h1>Rechnung [Invoice Number, e.g. 016/2024]</h1>
+
+<table>
+  <tr>
+    <th>Description</th>
+    <th class="right">Amount EUR</th>
+  </tr>
+  <tr>
+    <td>
+      Anzahlung für [Item Description, e.g. LKW MAN TGM 18.320 4x4 BB CH Fahrgestell Schwarz]<br>
+      Fahrgestellnummer: [Chassis Number, e.g. WMA38DZZ2RP280882]<br>
+      Motornummer: [Engine Number, e.g. 22869775376982]<br>
+      Baujahr: [Year, e.g. 2024]<br>
+      Kilometerstand: [Mileage, e.g. 25]
+    </td>
+    <td class="right">[Net Price, e.g. 10.350,00]</td>
+  </tr>
+</table>
+
+<table class="total">
+  <tr>
+    <td>Gesamtbetrag</td>
+    <td class="right">EUR [Total, e.g. 10.350,00]</td>
+  </tr>
+</table>
+
+<div>Steuerfreie Ausfuhrlieferung §4 Nr.1a UStG</div>
+
+<div class="small" style="margin-top: 20px;">
+  Zwischen den Parteien wird folgender Kaufvertrag über ein gebrauchtes KFZ geschlossen. Das KFZ wurde ausgiebig geprüft, Probe gefahren und besichtigt. Der Kauf erfolgt ohne jeglicher Gewährleistung und Garantie. Der Käufer erwirbt das KFZ auf eigene Gefahr, der Verkäufer übernimmt keine Haftung bezüglich sichtbarer oder unsichtbarer sowie evtl. später auftretender Mängel, Kilometerstand, Nachlackierungen, Unfallschäden. Der Käufer verzichtet auf Mängelhaftung nach §437 BGB. Die Ware bleibt bis zur vollständigen Bezahlung Eigentum des Verkäufers lt. §455 BGB. Es handelt sich um ein Händlergeschäft ohne Garantie, Gewährleistung und Sachmängelhaftung. Der Käufer bzw. der Abholer verpflichtet sich das Fahrzeug an die Rechnungsadresse auszuliefern.
+</div>
+
+<div style="margin-top: 40px;">
+  <strong>Bank details:</strong><br>
+  Inhaber Vitalij Berger<br>
+  Bank Sparkasse Südholstein<br>
+  SWIFT/BIC NOLADE21SHO<br>
+  IBAN DE17230510300511625121<br><br>
+  Bank Qonto<br>
+  SWIFT/BIC QNTODEB2XXX<br>
+  IBAN DE44100101232166983341<br><br>
+  Steuernummer 31/00/505524<br>
+  USt-IdNr. DE297485906
+</div>
+
+<div class="signature">
+  Inhaber:<br>
+  Vitalij Berger<br>
+  ____________________________<br>
+  <span class="small">(signature / company stamp)</span>
+</div>
+
+</body>
+</html>
